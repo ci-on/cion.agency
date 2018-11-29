@@ -4,8 +4,8 @@
     <p><span class="text-black font-semibold">General:</span>
       <a
         class="text-blue italic"
-        href="tel:+18006767830">
-        800.676.7830
+        href="tel:+18082188241">
+        808.218.8241
       </a>
     </p>
 
@@ -13,15 +13,15 @@
     <p><span class="text-black font-semibold">General:</span>
       <a
         class="text-blue italic"
-        href="mailto:info@eliinova.com">
-        info@eliinova.com
+        href="mailto:info@cion.agency">
+        info@cion.agency
       </a>
     </p>
     <p><span class="text-black font-semibold">Support:</span>
       <a
         class="text-blue italic"
-        href="mailto:support@eliinova.com">
-        support@eliinova.com
+        href="mailto:support@cion.agency">
+        support@cion.agency
       </a>
     </p>
 
@@ -31,7 +31,7 @@
         role="button"
         class="text-blue italic"
         @click="toggleMap">
-        Corona, CA
+        Los Angeles, CA
       </a>
     </p>
 
@@ -62,7 +62,7 @@
         </span>
         <div class="pt-8">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20903.400206063525!2d-117.52138453297499!3d33.93269796223647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcb0b9ea5d606d%3A0x8998d10fd29252f1!2sCorona%2C+CA%2C+USA!5e0!3m2!1sen!2sma!4v1542105230235"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.902684492195!2d-118.25949704933761!3d34.046367325392254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b5ce883d5f%3A0x80af66b4d1b22f8c!2s770+S+Grand+Ave%2C+Los+Angeles%2C+CA+90017!5e0!3m2!1sen!2sus!4v1543519711764"
             width="600"
             height="450"
             frameborder="0"

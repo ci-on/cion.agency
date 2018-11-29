@@ -1,8 +1,8 @@
 {
-  "name": "eliinova",
+  "name": "cion",
   "version": "1.0.0",
   "description": "The premier technology firm that can do anything you need.",
-  "author": "Eliinova LLC",
+  "author": "CiOn LLC",
   "private": true,
   "scripts": {
     "dev": "nuxt",

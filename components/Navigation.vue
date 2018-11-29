@@ -7,7 +7,7 @@
     >
       <img
         src="~/assets/images/logo.svg"
-        alt="Eliinova Solutions">
+        alt="CION Agency">
     </nuxt-link>
     <div class="flex items-center justify-between">
       <nav class="hidden lg:flex relative py-1">
