@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-content flex flex-col-reverse md:flex-row justify-end">
-    <div class="w-full md:w-1/2 relative z-10 mb-16 md:mb-0 min-h-half-content md:min-h-0 overflow-hidden">
+    <div class="w-full md:w-1/2 relative z-10 mb-16 md:mb-0 min-h-half-content md:min-h-0 overflow-hidden md:overflow-visible">
       <!-- left / bottom -->
       <transition name="fade">
         <component
