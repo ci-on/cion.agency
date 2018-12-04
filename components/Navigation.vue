@@ -125,7 +125,7 @@ export default {
     animateFromTo(fromIndex, toIndex) {
       TweenMax.fromTo(
         this.$refs.routing,
-        4,
+        this.$store.state.timing.transitionIndicator / 1000,
         {
           x: fromIndex !== null ? this.positions[fromIndex] : 0,
           width: fromIndex !== null ? this.indicatorWidth[fromIndex] : 0,

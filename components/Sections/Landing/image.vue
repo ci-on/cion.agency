@@ -85,7 +85,8 @@ export default {
   methods: {
     async beginRipples() {
       this.$nuxt.$emit('routeIsChanging', 'digital')
-      for (let i = 0; i < 10; i++) {
+
+      for (let i = 0; i < this.$store.state.timing.ripplesAmount; i++) {
         $('.bg-landing-image').ripples(
           'drop',
           0,
@@ -93,14 +94,17 @@ export default {
           10 * Math.random(),
           10 * Math.random()
         )
-        await this.sleep(250)
+        await this.sleep(this.$store.state.timing.rippleInterval)
       }
-      await this.sleep(6000)
+
+      await this.sleep(this.$store.state.timing.ripplesBouncing)
     },
 
     async navigateTo(section) {
       this.$nuxt.$emit('noAutoSlide')
-      for (let i = 0; i < 10; i++) {
+      this.$nuxt.$emit('routeIsChanging', section.slice(1))
+
+      for (let i = 0; i < this.$store.state.timing.ripplesAmount; i++) {
         $('.rippled-image').ripples(
           'drop',
           (1 - 0.95) * this.width * Math.random() + 0.95 * this.width,
@@ -108,9 +112,10 @@ export default {
           10 * Math.random(),
           10 * Math.random()
         )
-        await this.sleep(250)
+        await this.sleep(this.$store.state.timing.rippleInterval)
       }
-      await this.sleep(6500)
+
+      await this.sleep(this.$store.state.timing.ripplesBouncing)
       this.$router.push(section)
     },
   },

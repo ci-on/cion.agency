@@ -101,7 +101,7 @@ export default {
 
       const height = this.$refs.image.offsetHeight
       const width = this.$refs.image.offsetWidth
-      for (let i = 0; i < 10; i++) {
+      for (let i = 0; i < this.$store.state.timing.ripplesAmount; i++) {
         $('.rippled-image').ripples(
           'drop',
           (1 - 0.95) * width * Math.random() + 0.95 * width,
@@ -109,9 +109,10 @@ export default {
           10 * Math.random(),
           10 * Math.random()
         )
-        await this.sleep(250)
+        await this.sleep(this.$store.state.timing.rippleInterval)
       }
-      await this.sleep(5500)
+
+      await this.sleep(this.$store.state.timing.ripplesBouncing)
       this.$router.push(section)
     },
   },

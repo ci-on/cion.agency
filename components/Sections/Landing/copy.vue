@@ -28,7 +28,7 @@ export default {
     if (process.client) {
       TweenMax.from(this.$refs.text, 2, {
         transform: 'translateX(-80px)',
-        delay: 2.5,
+        delay: this.$store.state.timing.landingCopyDelay / 1000,
       })
     }
   },

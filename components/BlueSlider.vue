@@ -36,7 +36,7 @@ export default {
     if (process.client) {
       this.timeID = setTimeout(() => {
         this.$refs.slider.click()
-      }, 2500)
+      }, this.$store.state.timing.sliderClick)
     }
 
     this.$nuxt.$on('noAutoSlide', () => {
