@@ -47,7 +47,7 @@ let colors = {
   'brand-primary': '#00BCD4',
   'brand-black': '#333333',
   'brand-teal': '#00bcd4',
-  
+
   'navigation-yellow': '#FFA000',
   'navigation-blue': '#00BCD4',
   'navigation-red': '#EE004A',
@@ -343,6 +343,7 @@ module.exports = {
     'tight': '-0.05em',
     'normal': '0',
     'wide': '0.05em',
+    'extra-wide': '0.1em',
   },
 
 
@@ -553,7 +554,9 @@ module.exports = {
     '48': '12rem',
     '64': '16rem',
     'full': '100%',
-    'screen': '100vh'
+    'screen': '100vh',
+    'content': 'calc(100vh - 4rem)',
+    'half-content': 'calc(50vh - 2rem)',
   },
 
 
@@ -594,7 +597,9 @@ module.exports = {
   minHeight: {
     '0': '0',
     'full': '100%',
-    'screen': '100vh'
+    'screen': '100vh',
+    'content': 'calc(100vh - 4rem)',
+    'half-content': 'calc(50vh - 2rem)',
   },
 
 

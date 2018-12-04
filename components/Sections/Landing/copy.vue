@@ -1,5 +1,5 @@
 <template>
-  <div class="md:-mr-20 px-6 md:px-0 md:h-full md:flex items-center">
+  <div class="md:-mr-20 px-6 md:px-0 md:h-full flex items-center">
     <div ref="text">
       <div class="flex md:flex-row flex-col relative">
         <h1 class="font-sans text-4xl md:text-5xl lg:text-8xl font-black italic uppercase text-grey-darkest">

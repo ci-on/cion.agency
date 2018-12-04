@@ -1,28 +1,25 @@
 <template>
-  <div class="sidebar h-full absolute z-30">
-    <div
-      :class="[{active: open}]"
-      class="sidebar-inner h-full px-8 py-4 shadow-lg z-30">
-      <div class="flex justify-end">
-        <span
-          class="px-4 py-2 close text-lg"
-          @click.stop="handleClick">
-          x
-        </span>
-      </div>
-      <nav class="block text-left">
-        <template v-for="section in sections">
-          <nuxt-link
-            :key="section"
-            :to="section"
-            class="block text-base text-black font-semibold no-underline text-grey-darkest text-left text-white p-3 py-5 uppercase tracking-wide"
-            @click.native="handleClick"
-          >
-            {{ section | capitalize }}
-          </nuxt-link>
-        </template>
-      </nav>
-    </div>
+  <div
+    :class="{ closed: !open }"
+    class="fixed pin bg-grey-darkest transition"
+  >
+    <button
+      class="p-4 text-lg absolute pin-t pin-r text-white font-bold leading-none"
+      @click.stop="handleClick">
+      &#x2715;
+    </button>
+    <nav class="h-full flex flex-col items-center justify-around">
+      <template v-for="section in sections">
+        <nuxt-link
+          :key="section"
+          :to="section"
+          class="text-base font-semibold no-underline text-left text-white uppercase tracking-extra-wide"
+          @click.native="handleClick"
+        >
+          {{ section | capitalize }}
+        </nuxt-link>
+      </template>
+    </nav>
   </div>
 </template>
 
@@ -49,51 +46,18 @@ export default {
 
   methods: {
     handleClick() {
-      this.$store.dispatch('sidebar/toggleSidebar', true)
+      this.$store.dispatch('sidebar/toggleSidebar')
     },
   },
 }
 </script>
 
+<style>
+.transition {
+  transition: all 0.5s ease;
+}
 
-<style lang="scss" scoped>
-@import '~assets/css/scss/breakpoints';
-
-.sidebar {
-  .sidebar-inner {
-    width: 300px;
-    background: #333;
-    position: fixed;
-    top: 0;
-    right: 0;
-    color: #fff;
-    transition: all 0.2s ease;
-
-    @include breakpoint(md) {
-      width: 400px;
-    }
-
-    &.active {
-      right: -400px;
-    }
-  }
-
-  .close {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-  }
-
-  nav {
-    > a {
-      border-bottom: 1px solid #444;
-      transition: all 0.2s ease;
-
-      &:hover {
-        opacity: 0.8;
-        padding-left: 1.3em;
-      }
-    }
-  }
+.closed {
+  transform: translateX(100%);
 }
 </style>

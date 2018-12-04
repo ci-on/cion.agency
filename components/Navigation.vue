@@ -2,15 +2,16 @@
   <header class="sticky pin-t bg-white w-full h-16 flex items-center justify-between z-20">
     <nuxt-link
       to="/"
-      class="ml-4 home-link"
+      class="h-full"
       @click.native="handleNavClick"
     >
       <img
-        src="~/assets/images/logo.svg"
+        class="h-full"
+        src="~/assets/images/logo.png"
         alt="CION Agency">
     </nuxt-link>
     <div class="flex items-center justify-between">
-      <nav class="hidden lg:flex relative py-1">
+      <nav class="hidden md:flex relative py-1">
         <div
           v-for="section in sections"
           :key="section"
@@ -40,9 +41,10 @@
 </template>
 
 <script>
+import gsap from 'gsap'
+
 import SocialMedia from '~/components/SocialMedia.vue'
 import SidebarToggle from '~/components/SidebarToggle.vue'
-import { mapState, mapMutations } from 'vuex'
 
 export default {
   components: {
@@ -145,7 +147,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-@import '~assets/css/scss/index';
-</style>

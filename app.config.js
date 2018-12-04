@@ -1,3 +1,3 @@
 export default {
-  title: 'Ellinova Solutions',
+  title: 'CION Agency',
 }

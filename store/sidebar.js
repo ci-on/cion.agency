@@ -1,6 +1,6 @@
 export const state = () => {
   return {
-    sidebarOpen: true,
+    sidebarOpen: false,
   }
 }
 

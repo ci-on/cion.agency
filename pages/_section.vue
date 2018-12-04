@@ -1,42 +1,32 @@
 <template>
-  <div class="w-full flex flex-col-reverse md:flex-row z-20">
-    <div class="w-full md:w-1/2 flex items-center relative z-10">
-      <transition
-        name="fade"
-        class="relative h-full w-full"
-      >
+  <div class="min-h-content flex flex-col-reverse md:flex-row justify-end">
+    <div class="w-full md:w-1/2 relative z-10 mb-16 md:mb-0 min-h-half-content md:min-h-0 overflow-hidden">
+      <!-- left / bottom -->
+      <transition name="fade">
         <component
           :is="currentLeft"
-          class="absolute pin md:min-h-content"
+          class="absolute pin"
         />
       </transition>
-      <transition
-        name="fade"
-        class="relative h-full w-full"
-      >
+      <transition name="fade">
         <component
           :is="nextLeft"
-          class="absolute pin md:min-h-content"
+          class="absolute pin"
         />
       </transition>
     </div>
-    <div class="w-full min-h-content md:w-1/2 flex items-center relative">
-      <transition
-        name="fade"
-        class="relative h-full w-full"
-      >
+    <div class="w-full md:w-1/2 relative h-content md:h-auto">
+      <!-- right / top -->
+      <transition name="fade">
         <component
           :is="currentRight"
-          class="absolute pin md:min-h-content"
+          class="absolute pin"
         />
       </transition>
-      <transition
-        name="fade"
-        class="relative h-full w-full"
-      >
+      <transition name="fade">
         <component
           :is="nextRight"
-          class="absolute pin md:min-h-content"
+          class="absolute pin"
         />
       </transition>
     </div>
@@ -58,9 +48,6 @@ import CreativeImage from '~/components/Sections/Creative/image'
 import ClientsList from '~/components/Sections/Clients/list'
 import ContactInfo from '~/components/Sections/Contact/info'
 
-import 'animate.css/animate.min.css'
-import gsap from 'gsap'
-
 import sleepMixin from '~/mixins/sleep'
 
 export default {
@@ -78,8 +65,6 @@ export default {
     ClientsList,
     ContactInfo,
   },
-
-  layout: 'landing',
 
   mixins: [sleepMixin],
 
@@ -109,7 +94,6 @@ export default {
         'clients-copy',
         'contact-form',
       ],
-      showing: 0,
       currentLeft: null,
       currentRight: null,
       nextLeft: null,
@@ -129,11 +113,11 @@ export default {
       return
     }
 
-    this.timeID = setTimeout(async () => {
-      this.section = this.sections[index + 1]
-      this.$router.push(`/${this.section}`)
-      this.$nuxt.$emit('routeIsChanging', this.section)
-    }, 12500)
+    // this.timeID = setTimeout(async () => {
+    //   this.section = this.sections[index + 1]
+    //   this.$router.push(`/${this.section}`)
+    //   this.$nuxt.$emit('routeIsChanging', this.section)
+    // }, 12500)
 
     this.$nuxt.$on('noAutoSlide', () => {
       clearTimeout(this.timeID)

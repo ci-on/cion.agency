@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute flex items-center pin-l pin-b mb-4 ml-4">
+    class="fixed flex items-center pin-b mb-4 ml-4">
     <nuxt-link
       class="flex items-center justify-center no-underline"
       to="/contact"
