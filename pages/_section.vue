@@ -135,7 +135,7 @@ export default {
 
   methods: {
     async display() {
-      // this.$nuxt.$emit('routeIsChanging', this.section)
+      this.$nuxt.$emit('routeIsChanging', this.section)
       this.nextRight = this.right.find(component =>
         component.startsWith(this.section)
       )

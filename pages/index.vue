@@ -1,5 +1,11 @@
+<template>
+  <div/>
+</template>
 <script>
 export default {
-  middleware: 'landing',
+  // middleware: 'landing',
+  created() {
+    this.$router.replace('/landing')
+  },
 }
 </script>

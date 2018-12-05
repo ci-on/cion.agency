@@ -16,7 +16,7 @@ import Sidebar from '~/components/Sidebar'
 export default {
   head() {
     return {
-      title: `CION Agency | ${appConfig.title}`,
+      title: `${appConfig.title}`,
     }
   },
 
