@@ -1,7 +1,7 @@
 <template>
   <div class="block md:hidden text-grey">
     <button
-      class="p-2 outline-none"
+      class="px-4 outline-none"
       @click="handleClick">
       &#x2630;
     </button>
