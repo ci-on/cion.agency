@@ -113,11 +113,11 @@ export default {
       return
     }
 
-    // this.timeID = setTimeout(async () => {
-    //   this.section = this.sections[index + 1]
-    //   this.$router.push(`/${this.section}`)
-    //   this.$nuxt.$emit('routeIsChanging', this.section)
-    // }, 12500)
+    this.timeID = setTimeout(async () => {
+      this.section = this.sections[index + 1]
+      this.$router.push(`/${this.section}`)
+      this.$nuxt.$emit('routeIsChanging', this.section)
+    }, 12500)
 
     this.$nuxt.$on('noAutoSlide', () => {
       clearTimeout(this.timeID)
