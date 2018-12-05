@@ -35,8 +35,7 @@ export default {
   async mounted() {
     if (process.client) {
       this.timeID = setTimeout(() => {
-        // this.$refs.slider.click()
-        console.log(this.$refs)
+        this.$refs.slider.click()
       }, this.$store.state.timing.sliderClick)
     }
 

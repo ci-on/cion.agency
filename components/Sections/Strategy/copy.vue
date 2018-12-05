@@ -2,7 +2,7 @@
   <div class="h-full md:py-8">
     <div
       ref="image"
-      class="w-full bg-strategy-image text-white p-20 h-full flex flex-col justify-center relative rippled-image"
+      class="w-full bg-strategy-image text-white p-10 md:p-20 h-full flex flex-col justify-center relative rippled-image"
     >
       <div class="text-3xl opacity-50">02</div>
       <div class="absolute">
