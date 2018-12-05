@@ -17,6 +17,7 @@ export default {
   methods: {
     handleClick() {
       this.$store.dispatch('sidebar/toggleSidebar')
+      document.querySelector('body').classList.add('overflow-hidden')
     },
   },
 }
