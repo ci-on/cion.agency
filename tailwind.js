@@ -343,7 +343,6 @@ module.exports = {
     'tight': '-0.05em',
     'normal': '0',
     'wide': '0.05em',
-    'extra-wide': '0.1em',
   },
 
 
@@ -517,7 +516,8 @@ module.exports = {
     '1/6': '16.66667%',
     '5/6': '83.33333%',
     'full': '100%',
-    'screen': '100vw'
+    'screen': '100vw',
+    'overlapped': 'calc(50% + 2.5rem)' // much hardcode
   },
 
 
@@ -553,10 +553,12 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    'custom-40': '40rem',
     'full': '100%',
     'screen': '100vh',
     'content': 'calc(100vh - 4rem)',
-    'half-content': 'calc(50vh - 2rem)',
+    '1/2': '50%',
+    '3/4': '75%',
   },
 
 
@@ -575,8 +577,17 @@ module.exports = {
   */
 
   minWidth: {
-    '0': '0',
+    'xs': '20rem',
+    'sm': '30rem',
+    'md': '40rem',
+    'lg': '50rem',
+    'xl': '60rem',
+    '2xl': '70rem',
+    '3xl': '80rem',
+    '4xl': '90rem',
+    '5xl': '100rem',
     'full': '100%',
+    'screen': '100vh'
   },
 
 
@@ -595,11 +606,17 @@ module.exports = {
   */
 
   minHeight: {
-    '0': '0',
+    'xs': '20rem',
+    'sm': '30rem',
+    'md': '40rem',
+    'lg': '50rem',
+    'xl': '60rem',
+    '2xl': '70rem',
+    '3xl': '80rem',
+    '4xl': '90rem',
+    '5xl': '100rem',
     'full': '100%',
-    'screen': '100vh',
-    'content': 'calc(100vh - 4rem)',
-    'half-content': 'calc(50vh - 2rem)',
+    'screen': '100vh'
   },
 
 
@@ -629,6 +646,7 @@ module.exports = {
     '4xl': '90rem',
     '5xl': '100rem',
     'full': '100%',
+    'screen': '100vh'
   },
 
 
@@ -647,8 +665,16 @@ module.exports = {
   */
 
   maxHeight: {
+    'xs': '20rem',
+    'sm': '30rem',
+    'md': '40rem',
+    'lg': '50rem',
+    'xl': '60rem',
+    '2xl': '70rem',
+    '3xl': '80rem',
+    '4xl': '90rem',
+    '5xl': '100rem',
     'full': '100%',
-    'screen': '100vh',
   },
 
 
@@ -682,6 +708,7 @@ module.exports = {
     '16': '4rem',
     '20': '5rem',
     '24': '6rem',
+    '26': '7rem',
     '32': '8rem',
   },
 
@@ -911,6 +938,8 @@ module.exports = {
     minHeight: ['responsive'],
     minWidth: ['responsive'],
     negativeMargin: ['responsive'],
+    objectFit: ['responsive'],
+    objectPosition: ['responsive'],
     opacity: ['responsive'],
     outline: ['focus'],
     overflow: ['responsive'],

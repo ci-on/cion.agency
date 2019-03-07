@@ -1,0 +1,7 @@
+.transition {
+  transition: all .5s ease;
+}
+
+.blur {
+  filter: blur(.5px);
+}
