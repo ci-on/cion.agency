@@ -30,7 +30,7 @@
             <path d="M15.5 8l-7.5-7.5v4.5h-8v6h8v4.5z"/>
           </svg>
         </h1>
-        <p class="mb-6">
+        <p class="mb-6 font-semibold leading-normal">
           It’s not just about the end goal, but the way we get there is just as crucial.
         </p>
         <ul class="list-reset pl-4">

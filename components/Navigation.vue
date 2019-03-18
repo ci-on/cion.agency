@@ -7,7 +7,7 @@
       <img
         class="h-full"
         src="~/assets/images/logo.png"
-        alt="CiOn Agency"
+        alt="CION Agency"
       >
     </a>
     <div class="flex justify-between pr-4">

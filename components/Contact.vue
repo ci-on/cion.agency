@@ -28,12 +28,6 @@
             info@cion.agency
           </a>
         </p>
-        <!-- <p class="mt-2">
-          <span class="text-black font-semibold">Support:</span>
-          <a class="text-blue italic" href="mailto:support@eliinova.com">
-            support@eliinova.com
-          </a>
-        </p> -->
       </div>
       <div class="h-full w-1/3 md:w-full text-center md:my-4">
         <h3 class="font-black uppercase mb-3 italic">Location</h3>
@@ -43,20 +37,20 @@
           <!-- </a> -->
         </p>
       </div>
-      <!-- <div class="flex w-full md:w-1/2 items-center md:items-start flex-col mt-10 md:mt-0">
+      <div class="flex w-full md:w-1/2 items-center md:items-start flex-col mt-10 md:mt-0">
         <h3 class="font-black flex uppercase italic">Follow Us</h3>
         <div class="flex -ml-6 mt-4">
           <SocialMedia :contact="true" />
         </div>
-      </div> -->
-      <!-- <div class="bottom md:flex flex-1 flex-col bg-grey-lightest">
+      </div>
+      <div class="bottom md:flex flex-1 flex-col bg-grey-lightest">
         <div class="bottom-top flex items-start justify-center pt-10">
           <Subscribe />
         </div>
         <div class="mt-10 md:mt-0 bottom-bottom flex-1 flex items-center justify-center">
           <Blog />
         </div>
-      </div> -->
+      </div>
     </div>
 
     <div class="w-full md:w-overlapped md:h-full py-8 md:-ml-10">
@@ -222,7 +216,17 @@
 </template>
 
 <script>
+import Blog from '~/components/Blog.vue'
+import SocialMedia from '~/components/SocialMedia.vue'
+import Subscribe from '~/components/Subscribe.vue'
+
 export default {
+  components: {
+    Blog,
+    SocialMedia,
+    Subscribe,
+  },
+
   data() {
     return {
       map: false,

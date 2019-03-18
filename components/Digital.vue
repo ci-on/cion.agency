@@ -38,8 +38,8 @@
             <path d="M10.958 2.352l1.085 0.296-3 11-1.085-0.296 3-11z"/>
           </svg>
         </h1>
-        <p class="mb-6">
-          Information is the DNA of a Company. We build effective solutions to use it.
+        <p class="mb-6 font-semibold leading-normal">
+          Data is the DNA of a company. We build effective data-driven solutions to use it.
         </p>
         <ul class="list-reset pl-4">
           <li
@@ -73,9 +73,9 @@ export default {
   data() {
     return {
       list_data: [
-        { name: 'Custom Software Dev' },
-        { name: 'Web & Mobile App Dev' },
-        { name: 'Database Architecture' },
+        { name: 'Custom Software Development' },
+        { name: 'Web & Mobile App Development' },
+        { name: 'Database Design & Architecture' },
       ],
     }
   },

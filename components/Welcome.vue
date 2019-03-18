@@ -4,8 +4,8 @@
       <h1 class="font-sans text-2xl md:text-5xl font-black italic uppercase text-grey-darkest">
         Build awesome experiences
       </h1>
-      <p class="mt-4 text-sm md:text-xl text-grey-darkest">
-        We have a knack for transforming businesses<br>with creative digital solutions
+      <p class="mt-4 text-sm md:text-xl text-grey-darkest leading-normal">
+        We help companies turn great ideas<br>into amazing apps, products, and services.
       </p>
     </div>
 
