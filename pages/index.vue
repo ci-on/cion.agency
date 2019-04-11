@@ -236,7 +236,7 @@
             Proud of our Skills
           </h1>
           <p class="w-2/3 text-center leading-normal text-sm text-charcoal-grey-64 font-medium">
-            Different Clients require different skills. Luckly we have a variety of them available to help you out whether it is for custom software or some new branding.
+            Different Clients require different skills. Luckily, we have a variety of them available to help you out whether it is for custom software or some new branding.
           </p>
       </div>
 
