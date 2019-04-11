@@ -1,6 +1,6 @@
-# eliinova-v2
+# CION Agency
 
-> My delightful Nuxt.js project
+> CION Agency website source code
 
 ## Build Setup
 
