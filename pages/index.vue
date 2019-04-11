@@ -473,7 +473,7 @@
       </div>
     </section>
 
-    <section id="clients" class="min-h-lg flex flex-col items-center justify-center container mx-auto">
+    <section id="clients" class="min-h-sm flex flex-col items-center justify-center container mx-auto">
       <div class="flex flex-col items-center">
           <h1 class="mb-8 uppercase text-xl md:text-3xl lg:text-5xl font-extrabold italic text-black">
             COMPANY WE KEEP
@@ -484,35 +484,35 @@
       </div>
 
       <div class="w-full flex flex-wrap justify-between items-center py-10">
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
           <img style="width:123px;height:24px" src="@/assets/img/aetna.svg" alt="Aetna Logo">
         </div>
 
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
           <img style="width:124px;height:38px" src="@/assets/img/carefree.svg" alt="CareFree Logo">
         </div>
 
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
           <img style="width:124.79px;height:19.9px" src="@/assets/img/csusb.png" alt="CSUSB Logo">
         </div>
 
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
           <img style="width:133px;height:52px" src="@/assets/img/calpoly.png" alt="Cal Poly Logo">
         </div>
 
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
-          <img style="width:123px;height:18px;" src="@/assets/img/mutesix-logo.png" alt="Mutesix Logo">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
+          <img style="width:138px;height:22px;" src="@/assets/img/mutesix-logo.png" alt="Mutesix Logo">
         </div>
 
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
           <img style="width:123px;height:24px;" src="@/assets/img/auditme-logo.svg" alt="Audit.me Logo">
         </div>
 
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
           <img style="width:123px;height:18px;" src="@/assets/img/datasix-logo.png" alt="Datasix Logo">
         </div>
 
-        <div class="w-1/2 md:w-1/4 flex justify-center mb-10">
+        <div class="w-1/2 md:w-1/4 flex justify-center mb-10 grayscale">
           <img style="width:123px;height:26px;" src="@/assets/img/productn-logo.png" alt="Product N Logo">
         </div>
       </div>
@@ -942,5 +942,10 @@ export default {
   .bg-footer-color {
     background-color: #F1F3F4;
     opacity: 50%;
+  }
+
+  .grayscale {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
   }
 </style>
