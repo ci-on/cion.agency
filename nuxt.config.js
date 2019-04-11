@@ -12,12 +12,12 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
+      { hid: 'description', name: 'description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development' },
       { name: 'theme-color', content: '#00bcd4'},
-      { name: 'keywords', content: 'CION,Website,Agency'},
-      { name: 'description', content: 'CION is a software development agency specializing in PHP, Laravel, Craft CMS, and Vue.js development'},
-      { name: 'og:description', content: 'CION is a software development agency specializing in PHP, Laravel, Craft CMS, and Vue.js development'},
-      { name: 'og:title', content: 'CION | Product Development for Web + Mobile | Laravel + Vue.js'},
+      { name: 'keywords', content: 'CION,Website,Agency,Artificial Intelligence'},
+      { name: 'description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
+      { name: 'og:description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
+      { name: 'og:title', content: 'CION Agency | Product Development for Web & Mobile | Laravel + Vue.js | Artificial Intelligence'},
       { name: 'og:image' , content: './assets/img/cion-logo.svg' }
     ],
     link: [
