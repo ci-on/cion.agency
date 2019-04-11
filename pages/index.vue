@@ -539,24 +539,24 @@
           <div class="flex w-full items-center">
             <div class="w-1/2 pr-8">
               <div class="mb-10">
-                <label for="full_name" class="text-sm text-white">Full Name*</label>
-                <input type="text" name="full_name" v-model="form.full_name" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="Full Name">
+                <label for="fullname" class="text-sm text-white">Full Name*</label>
+                <input type="text" name="fullname" v-model="form.fullname" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="Full Name">
               </div>
 
               <div class="mb-10">
-                <label for="email" class="text-sm text-white">Work Email*</label>
-                <input type="text" name="email" v-model="form.email" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="Email Address">
+                <label for="workemail" class="text-sm text-white">Work Email*</label>
+                <input type="text" name="workemail" v-model="form.workemail" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="Email Address">
               </div>
             </div>
             <div class="w-1/2 pr-8">
               <div class="mb-10">
                 <label for="company" class="text-sm text-white">Company*</label>
-                <input type="text" name="company" v-model="form.company" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="Company Name">
+                  <input type="text" name="company" v-model="form.company" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="Company Name">
               </div>
 
               <div class="mb-10">
-                <label for="phone" class="text-sm text-white">Phone Number</label>
-                <input type="text" name="phone" v-model="form.phone" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="(555) 555-5555">
+                <label for="phonenumber" class="text-sm text-white">Phone Number</label>
+                  <input type="text" name="phonenumber" v-model="form.phonenumber" class="w-full mt-4 text-sm focus:outline-none font-medium appearance-none text-white border-b bg-transparent border-grey-light" placeholder="(555) 555-5555">
               </div>
             </div>
           </div>
