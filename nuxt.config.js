@@ -15,8 +15,8 @@ module.exports = {
       { name: 'theme-color', content: '#00bcd4'},
       { name: 'keywords', content: 'CION,Website,Agency,Artificial Intelligence'},
       { name: 'description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
-      { name: 'og:description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
-      { name: 'og:title', content: 'CION Agency | Product Development for Web & Mobile | Laravel + Vue.js | Artificial Intelligence'},
+      { property: 'og:description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
+      { property: 'og:title', content: 'CION Agency | Product Development for Web & Mobile | Laravel + Vue.js | Artificial Intelligence'},
       { property: 'og:image' , content: 'https://cion.agency/favicon/cion-logo.png' }
     ],
     link: [
