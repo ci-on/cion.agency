@@ -1,6 +1,6 @@
-# CION Agency
+# eliinova-v2
 
-> The premier technology firm that can do anything you need.
+> My delightful Nuxt.js project
 
 ## Build Setup
 
