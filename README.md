@@ -1,6 +1,6 @@
 # CION Agency
 
-> CION Agency website source code
+> CION Agency website source code.
 
 ## Build Setup
 

@@ -18,6 +18,7 @@ module.exports = {
       { property: 'og:description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
       { property: 'og:title', content: 'CION Agency | Product Development for Web & Mobile | Laravel + Vue.js | Artificial Intelligence'},
       { property: 'og:image' , content: 'https://cion.agency/favicon/cion-logo.png' },
+      { property: 'og:image:alt' , content: 'CION Logo | Consulting Agency' },
       { property: 'og:url' , content: 'https://cion.agency/' },
       { property: 'og:type' , content: 'website' }
     ],
