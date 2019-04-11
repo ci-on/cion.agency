@@ -232,12 +232,12 @@
 
     <section id="services" class="min-h-lg py-10 flex flex-col items-center justify-center container mx-auto">
       <div class="flex flex-col items-center">
-          <h1 class="mb-8 uppercase text-xl md:text-3xl lg:text-5xl font-extrabold italic text-black">
-            Proud of our Skills
-          </h1>
-          <p class="w-2/3 text-center leading-normal text-sm text-charcoal-grey-64 font-medium">
-            Different Clients require different skills. Luckily, we have a variety of them available to help you out whether it is for custom software or some new branding.
-          </p>
+        <h1 class="mb-8 uppercase text-xl md:text-3xl lg:text-5xl font-extrabold italic text-black">
+          Proud of our Skills
+        </h1>
+        <p class="w-2/3 text-center leading-normal text-sm text-charcoal-grey-64 font-medium">
+          Different Clients require different skills. Luckily, we have a variety of them available to help you out whether it is for custom software or some new branding.
+        </p>
       </div>
 
       <div class="flex mt-10 md:mt-20 flex-col lg:flex-row w-full items-center justify-between">
