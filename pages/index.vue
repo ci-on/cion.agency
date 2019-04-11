@@ -836,7 +836,7 @@ export default {
   .bg-digital {
     background-image: url('../assets/img/digital.png');
     background-size: cover;
-    box-shadow: 0 22px 22px -13px rgba(255,184,63,0.23), 0 33px 52px 0 rgba(255,184,63,0.18);
+    box-shadow: 0 22px 22px -13px rgba(0,172,193,0.23), 0 33px 52px 0 rgba(0,172,193,0.18);
   }
 
   .bg-digital-color {
