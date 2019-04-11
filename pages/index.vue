@@ -248,7 +248,7 @@
                 <h3 class="text-white text-2xl italic font-extrabold uppercase">DIGITAL</h3>
               </div>
               <div class="mt-2">
-                <p class="text-center text-white font-medium leading-normal">Information is the DNA of a Company. We build effective solutions to use it.</p>
+                <p class="text-center text-white font-medium leading-normal px-5">Information is the DNA of a Company. We build effective solutions to use it.</p>
                 <div class="flex justify-center mt-6">
                   <ul class="p-0">
                     <li class="flex items-center py-2">
@@ -322,7 +322,7 @@
                 <h3 class="text-white text-2xl italic font-extrabold uppercase">Strategy</h3>
               </div>
               <div class="mt-2">
-                <p class="text-center text-white font-medium leading-normal">
+                <p class="text-center text-white font-medium leading-normal px-5">
                   It’s not just about the end goal, but the way we get there is just as crucial.
                 </p>
                 <div class="flex justify-center mt-6">
@@ -398,7 +398,7 @@
                 <h3 class="text-white text-2xl italic font-extrabold uppercase">CREATIVE</h3>
               </div>
               <div class="mt-2">
-                <p class="text-center text-white font-medium leading-normal">Impactful branding & interfaces all have one similarity, user driven design.</p>
+                <p class="text-center text-white font-medium leading-normal px-5">Impactful branding & interfaces all have one similarity, user driven design.</p>
                 <div class="flex justify-center mt-6">
                   <ul class="p-0">
                     <li class="flex items-center py-2">
