@@ -17,10 +17,10 @@ module.exports = {
       { name: 'description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
       { name: 'og:description', content: 'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'},
       { name: 'og:title', content: 'CION Agency | Product Development for Web & Mobile | Laravel + Vue.js | Artificial Intelligence'},
-      { property: 'og:image' , content: 'https://cion.agency/favicon/cion-logo.svg' }
+      { property: 'og:image' , content: 'https://cion.agency/favicon/cion-logo.png' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon/favicon.png' },
+      { rel: 'icon', type: 'image/png', href: '/favicon/cion-logo.png' },
       { rel: 'apple-touch-icon', sizes:"57x57", href: '/favicon/apple-icon-57x57.png' },
       { rel: 'apple-touch-icon', sizes:"60x60", href: '/favicon/apple-icon-60x60.png' },
       { rel: 'apple-touch-icon', sizes:"72x72", href: '/favicon/apple-icon-72x72.png' },
