@@ -18,7 +18,7 @@ module.exports = {
       { name: 'description', content: 'CION is a software development agency specializing in PHP, Laravel, Craft CMS, and Vue.js development'},
       { name: 'og:description', content: 'CION is a software development agency specializing in PHP, Laravel, Craft CMS, and Vue.js development'},
       { name: 'og:title', content: 'CION | Product Development for Web + Mobile | Laravel + Vue.js'},
-      { name: 'og:image' , content: './assets/cion-logo.svg' }
+      { name: 'og:image' , content: './assets/img/cion-logo.svg' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon/favicon.png' },
@@ -31,7 +31,10 @@ module.exports = {
       { rel: 'apple-touch-icon', sizes:"144x144", href: '/favicon/apple-icon-144x144.png' },
       { rel: 'apple-touch-icon', sizes:"152x152", href: '/favicon/apple-icon-152x152.png' },
       { rel: 'apple-touch-icon', sizes:"180x180", href: '/favicon/apple-icon-180x180.png' },
-      { rel: 'icon', type:"image/png", sizes:'192x192', href: '/favicon/android-icon-192x192.png' },
+      // { rel: 'icon', type:"image/png", sizes:'192x192', href: '/favicon/android-icon-192x192.png' },
+      // { rel: 'icon', type:"image/png", sizes:'32x32', href: '/favicon-32x32.png' },
+      // { rel: 'icon', type:"image/png", sizes:'96x96', href: '/favicon-96x96.png' },
+      // { rel: 'icon', type:"image/png", sizes:'16x16', href: '/favicon-16x16.png' }
     ]
   },
   /*
