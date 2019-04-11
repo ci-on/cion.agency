@@ -559,9 +559,9 @@
           </div>
 
           <div class="w-full mt-6">
-            <label for="" class="text-xs text-white">Interested In*</label>
-            <textarea name="message" v-model="form.message" id="" rows="4" class="w-full mt-3 text-black px-3 py-4" placeholder="What are your needs? Include as much detail as possible.">
-            </textarea>
+            <label for="message" class="text-xs text-white">Interested In*</label>
+              <textarea name="message" v-model="form.message" id="" rows="4" class="w-full mt-3 text-black px-3 py-4" placeholder="What are your needs? Include as much detail as possible.">
+              </textarea>
           </div>
 
           <div class="w-full flex mt-4 justify-end">
@@ -689,8 +689,8 @@
                 class="px-6 md:px-0 w-full md:w-2/3 flex flex-col md:flex-row items-center">
                 <div class="w-full flex-1">
                   <h3 class="text-xl font-extrabold italic text-black uppercase">Newsletter</h3>
-                  <label for="email" class="hidden"></label>
-                  <input name="email" v-model="form.email" type="text" class="focus:outline-none text-grey-dark text-sm mt-4 bg-transparent border-b border-grey w-full" placeholder="Email Address">
+                  <label for="workemail" class="hidden">Work Email</label>
+                    <input name="workemail" v-model="form.workemail" type="text" class="focus:outline-none text-grey-dark text-sm mt-4 bg-transparent border-b border-grey w-full" placeholder="Email Address">
                 </div>
                 <div class="w-full md:w-1/4 flex justify-start mt-4 md:mt-0 md:justify-end">
                   <button type="submit" class="uppercase flex items-center rounded-16px py-1 font-extrabold italic border border-blue text-blue px-3">
@@ -809,10 +809,10 @@ export default {
   data () {
     return {
       form: {
-        full_name: "",
-        email: "",
+        fullname: "",
+        workemail: "",
         company: "",
-        phone: "",
+        phonenumber: "",
         message: ""
       }
     }
@@ -839,10 +839,10 @@ export default {
         axiosConfig
       ).then(response => {
         this.form = {
-          full_name: "",
-          email: "",
+          fullname: "",
+          workemail: "",
           company: "",
-          phone: "",
+          phonenumber: "",
           message: ""
         }
         Swal.fire({
