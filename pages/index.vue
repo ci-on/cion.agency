@@ -1,7 +1,7 @@
 <template>
   <main class="font-sans">
     <section
-      class="max-h-sm min-h-sm md:max-h-md md:min-h-md relative bg-cover bg-man"
+      class="max-h-sm min-h-sm md:max-h-md md:min-h-md lg:max-h-lg lg:min-h-lg relative bg-cover bg-man"
     >
       <header class="pt-10 md:mt-0 h-16 px-4 flex flex-col md:flex-row items-center justify-between">
         <div>
@@ -41,7 +41,7 @@
         </div>
       </header>
       <div class="container mx-auto">
-        <div class="flex flex-col justify-center h-full w-full px-10 max-h-sm min-h-sm md:max-h-md md:min-h-md md:-mt-20">
+        <div class="flex flex-col justify-center h-full w-full px-16 max-h-sm min-h-sm md:max-h-md md:min-h-md lg:max-h-lg lg:min-h-lg md:-mt-20">
           <h1 class="w-full md:w-2/3 mb-4 uppercase leading-none text-black text-2xl md:text-5xl lg:text-7xl font-extrabold italic">
             Build awesome experiences
           </h1>
