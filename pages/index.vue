@@ -599,7 +599,7 @@
                 <p class="mt-3 text-grey-dark text-sm font-medium tracking-wide">General:<span class="ml-2 text-blue underline tracking-wide">info@cion.agency</span></p>
                 <p class="mt-3 text-grey-dark text-sm font-medium tracking-wide">Support:<span class="ml-2 text-blue underline tracking-wide">support@cion.agency</span></p>
               </div>
-              <div class="mt-6 flex flex-col md:flex-row items-center">
+              <div class="mt-6 flex flex-col md:flex-row items-center md:items-start">
                 <div class="w-full md:w-1/2 mb-6 md:mb-0">
                   <h3 class="text-xl font-extrabold italic text-black uppercase">Follow Us</h3>
                   <div class="flex items-center pr-6 mt-4">
@@ -629,6 +629,9 @@
                   <h3 class="text-xl font-extrabold italic text-black uppercase">Location</h3>
                   <div class="flex items-center mt-4">
                     <p class="font-medium text-sm text-grey-dark tracking-wide">Los Angeles, CA</p>
+                  </div>
+                  <div class="flex items-center mt-4">
+                    <p class="font-medium text-sm text-grey-dark tracking-wide">Marrakech, Morocco</p>
                   </div>
                 </div>
               </div>
