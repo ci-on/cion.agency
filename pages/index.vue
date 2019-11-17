@@ -914,7 +914,6 @@ export default {
 
   .bg-footer-color {
     background-color: #F1F3F4;
-    opacity: 50%;
   }
 
   .grayscale {
