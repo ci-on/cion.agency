@@ -790,6 +790,14 @@ export default {
         .join("&");
     },
     handleSubmit (type) {
+      if (!this.form.workemail || !this.form.fullname || !this.form.message) {
+        Swal.fire({
+          title: 'Something Went Wrong!',
+          type: 'error'
+        })
+        return
+      }
+
       const axiosConfig = {
         header: { "Content-Type": "application/x-www-form-urlencoded" }
       };
