@@ -653,10 +653,10 @@
                 <div class="w-full flex-1">
                   <h3 class="text-xl font-extrabold italic text-black uppercase">Newsletter</h3>
                   <label for="workemail" class="hidden">Work Email</label>
-                  <input name="workemail" v-model="form.workemail" type="text" class="focus:outline-none text-grey-dark text-sm mt-4 bg-transparent border-b border-grey w-full" placeholder="Email Address">
+                  <input name="workemail" v-model="form.workemail" type="text" class="focus:outline-none py-2 text-grey-dark text-sm mt-4 bg-transparent border-b border-grey w-full" placeholder="Email Address">
                 </div>
-                <div class="w-full md:w-1/4 flex justify-start mt-4 md:mt-0 md:justify-end">
-                  <button type="submit" class="uppercase flex items-center rounded-16px py-1 font-extrabold italic border border-blue text-blue px-3">
+                <div class="w-full md:w-1/4 flex justify-start mt-4 md:justify-end">
+                  <button type="submit" class="uppercase flex items-center rounded-16px py-1 font-extrabold italic border border-blue text-blue px-6">
                     <svg class="mr-3 fill-current text-blue" width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <g id="Comp" stroke="none" stroke-width="1" fill-rule="evenodd">
                         <g id="Landing" transform="translate(-989.000000, -4127.000000)">
