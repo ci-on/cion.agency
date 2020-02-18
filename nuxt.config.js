@@ -42,7 +42,6 @@ module.exports = {
       {
         hid: 'fathom-analytics',
         innerHTML: `
-<script>
 (function(f, a, t, h, o, m){
 a[h]=a[h]||function(){
 (a[h].q=a[h].q||[]).push(arguments)
@@ -54,7 +53,6 @@ m.parentNode.insertBefore(o,m)
 })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
 fathom('set', 'siteId', 'JXUSBEEK');
 fathom('trackPageview');
-</script>
         `,
         type: 'text/javascript',
         charset: 'utf-8'
