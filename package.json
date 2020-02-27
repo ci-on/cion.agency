@@ -1,26 +1,31 @@
 {
-  "name": "cion-site",
+  "name": "cion.agency",
   "version": "1.0.0",
-  "description": "My delightful Nuxt.js project",
-  "author": "Martín Aimar",
+  "description": "Official site for cion.agency",
+  "author": "Chris Breuer",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "^2.2.0",
-    "axios": "^0.18.0",
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
-    "sweetalert2": "^8.8.3",
-    "vue2-smooth-scroll": "^1.0.5"
+    "@tailwindcss/ui": "^0.1.2",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^8.6.4",
-    "nodemon": "^1.18.9",
-    "tailwindcss": "^0.7.0"
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/stylelint-module": "^3.1.0",
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "stylelint": "^10.1.0"
   }
 }

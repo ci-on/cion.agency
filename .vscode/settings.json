@@ -1,0 +1,12 @@
+{
+  "search.exclude": {
+    "src/plugins/vue-doka/**": true,
+  },
+  "css.validate": false, // in favor of stylelint: https://www.meidev.co/blog/visual-studio-code-css-linting-with-tailwind/
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "vetur.validation.template": false
+}
