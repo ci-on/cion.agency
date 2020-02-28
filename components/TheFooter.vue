@@ -6,7 +6,7 @@
       <nav class="flex flex-wrap justify-center -mx-5 -my-2">
         <div class="px-5 py-2">
           <a
-            href="#"
+            href="#strategy"
             class="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
             Strategy
@@ -14,7 +14,7 @@
         </div>
         <div class="px-5 py-2">
           <a
-            href="#"
+            href="#services"
             class="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
             Services
@@ -22,7 +22,15 @@
         </div>
         <div class="px-5 py-2">
           <a
-            href="#"
+            href="#case-study"
+            class="text-base leading-6 text-gray-500 hover:text-gray-900"
+          >
+            Case Study
+          </a>
+        </div>
+        <div class="px-5 py-2">
+          <a
+            href="#clients"
             class="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
             Clients
@@ -30,10 +38,18 @@
         </div>
         <div class="px-5 py-2">
           <a
+            href="#contact"
+            class="text-base leading-6 text-gray-500 hover:text-gray-900"
+          >
+            Contact
+          </a>
+        </div>
+        <div class="px-5 py-2">
+          <a
             href="#"
             class="text-base leading-6 text-gray-500 hover:text-gray-900"
           >
-            Contacts
+            Client Portal
           </a>
         </div>
       </nav>

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div id="clients" class="bg-white">
     <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8">
       <p
         class="text-base font-semibold leading-6 tracking-wider text-center text-gray-600 uppercase"

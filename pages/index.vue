@@ -1,9 +1,10 @@
 <template>
   <div>
     <the-hero />
-    <chris-quote />
-    <feature-section />
+    <strategy-section />
     <services-section />
+    <greenline-section />
+    <newsletter-section />
     <logo-cloud />
     <testimonial-section />
     <the-footer />
@@ -14,9 +15,10 @@
 import TheHero from '../components/TheHero'
 import TheFooter from '../components/TheFooter'
 import LogoCloud from '../components/LogoCloud'
-import ChrisQuote from '../components/ChrisQuote'
+import StrategySection from '../components/StrategySection'
 import ServicesSection from '../components/ServicesSection'
-import FeatureSection from '../components/FeatureSection'
+import NewsletterSection from '../components/NewsletterSection'
+import GreenlineSection from '../components/GreenlineSection'
 import TestimonialSection from '../components/TestimonialSection'
 
 export default {
@@ -24,8 +26,9 @@ export default {
     TheHero,
     TheFooter,
     LogoCloud,
-    ChrisQuote,
-    FeatureSection,
+    StrategySection,
+    NewsletterSection,
+    GreenlineSection,
     ServicesSection,
     TestimonialSection
   }

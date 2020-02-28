@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-indigo-800">
+  <div class="mt-12 bg-indigo-800">
     <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
       <div
         class="px-4 py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16"
