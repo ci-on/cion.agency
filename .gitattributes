@@ -1,0 +1,2 @@
+# https://eslint.org/docs/rules/linebreak-style#using-this-rule-with-version-control-systems
+*.js text eol=lf
