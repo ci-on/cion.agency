@@ -1,9 +1,9 @@
 <template>
-  <div class="relative bg-gray-50 overflow-hidden">
+  <div class="relative overflow-hidden bg-gray-50">
     <background-pattern />
 
     <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
-      <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
+      <div class="max-w-screen-xl px-4 mx-auto sm:px-6">
         <nav
           class="relative flex items-center justify-between sm:h-10 md:justify-center"
         >
@@ -14,14 +14,14 @@
               <a href="#">
                 <cion-logo-small style="height: 50px" />
               </a>
-              <div class="-mr-2 flex items-center md:hidden">
+              <div class="flex items-center -mr-2 md:hidden">
                 <button
                   type="button"
-                  class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                  class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
                   @click="open = true"
                 >
                   <svg
-                    class="h-6 w-6"
+                    class="w-6 h-6"
                     stroke="currentColor"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -40,17 +40,17 @@
           <div class="hidden md:block">
             <a
               href="#"
-              class="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+              class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
               >Services</a
             >
             <a
               href="#"
-              class="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+              class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
               >Clients</a
             >
             <a
               href="#"
-              class="ml-10 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
+              class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
               >Contact</a
             >
           </div>
@@ -60,7 +60,7 @@
             <span class="inline-flex rounded-md shadow">
               <a
                 href="#"
-                class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
+                class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-indigo-700"
               >
                 Client Portal
               </a>
@@ -72,11 +72,11 @@
       <div
         v-show="open"
         style="display: none;"
-        class="absolute top-0 inset-x-0 p-2 md:hidden"
+        class="absolute inset-x-0 top-0 p-2 md:hidden"
       >
         <transition
           v-show="open"
-          class="rounded-lg shadow-md transition transform origin-top-right"
+          class="transition origin-top-right transform rounded-lg shadow-md"
           enter="duration-150 ease-out"
           enter-start="opacity-0 scale-95"
           enter-end="opacity-100 scale-100"
@@ -84,11 +84,11 @@
           leave-start="opacity-100 scale-100"
           leave-end="opacity-0 scale-95"
         >
-          <div class="rounded-lg bg-white shadow-xs overflow-hidden">
-            <div class="px-5 pt-4 flex items-center justify-between">
+          <div class="overflow-hidden bg-white rounded-lg shadow-xs">
+            <div class="flex items-center justify-between px-5 pt-4">
               <div>
                 <img
-                  class="h-8 w-auto"
+                  class="w-auto h-8"
                   src="/img/logos/workflow-mark-on-white.svg"
                   alt=""
                 />
@@ -96,11 +96,11 @@
               <div class="-mr-2">
                 <button
                   type="button"
-                  class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
+                  class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
                   @click="open = false"
                 >
                   <svg
-                    class="h-6 w-6"
+                    class="w-6 h-6"
                     stroke="currentColor"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -118,31 +118,31 @@
             <div class="px-2 pt-2 pb-3">
               <a
                 href="#"
-                class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                class="block px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 >Product</a
               >
               <a
                 href="#"
-                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 >Features</a
               >
               <a
                 href="#"
-                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 >Marketplace</a
               >
               <a
                 href="#"
-                class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
+                class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
                 >Company</a
               >
             </div>
             <div>
               <a
                 href="#"
-                class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
+                class="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
               >
-                Log in
+                Client Portal
               </a>
             </div>
           </div>
@@ -150,37 +150,37 @@
       </div>
 
       <div
-        class="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28"
+        class="max-w-screen-xl px-4 mx-auto mt-10 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 xl:mt-28"
       >
         <div class="text-center">
           <h2
-            class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
+            class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:text-5xl sm:leading-none md:text-6xl"
           >
             Build awesome digital
             <br class="xl:hidden" />
             <span class="text-indigo-600">experiences</span>
           </h2>
           <p
-            class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
+            class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
           >
             We have a knack for transforming businesses with creative digital
             solutions
           </p>
-          <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
+          <div class="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
             <div class="rounded-md shadow">
               <a
                 href="#"
-                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10"
               >
-                Get started
+                Let's talk
               </a>
             </div>
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
               <a
                 href="#"
-                class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
               >
-                Live demo
+                What do we do?
               </a>
             </div>
           </div>

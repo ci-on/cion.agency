@@ -2,7 +2,7 @@
   <div class="bg-indigo-800">
     <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
       <div
-        class="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16"
+        class="px-4 py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16"
       >
         <div class="md:flex-shrink-0">
           <svg fill="none" height="40" viewBox="0 0 105 40">
@@ -30,10 +30,10 @@
         </div>
         <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
           <div
-            class="relative text-lg leading-7 font-medium text-white md:flex-grow"
+            class="relative text-lg font-medium leading-7 text-white md:flex-grow"
           >
             <svg
-              class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+              class="absolute top-0 left-0 w-8 h-8 text-indigo-600 transform -translate-x-3 -translate-y-2"
               fill="currentColor"
               viewBox="0 0 32 32"
             >
@@ -50,19 +50,19 @@
           <footer class="mt-8">
             <div class="flex">
               <div
-                class="flex-shrink-0 inline-flex rounded-full border-2 border-white"
+                class="inline-flex flex-shrink-0 border-2 border-white rounded-full"
               >
                 <img
-                  class="h-12 w-12 rounded-full"
+                  class="w-12 h-12 rounded-full"
                   src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                   alt=""
                 />
               </div>
               <div class="ml-4">
-                <div class="text-base leading-6 font-medium text-white">
+                <div class="text-base font-medium leading-6 text-white">
                   Judith Black
                 </div>
-                <div class="text-base leading-6 font-medium text-indigo-200">
+                <div class="text-base font-medium leading-6 text-indigo-200">
                   CEO, Tuple
                 </div>
               </div>
@@ -71,7 +71,7 @@
         </blockquote>
       </div>
       <div
-        class="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16"
+        class="px-4 py-12 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16"
       >
         <div class="md:flex-shrink-0">
           <svg fill="none" height="40" viewBox="0 0 180 40">
@@ -109,10 +109,10 @@
         </div>
         <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
           <div
-            class="relative text-lg leading-7 font-medium text-white md:flex-grow"
+            class="relative text-lg font-medium leading-7 text-white md:flex-grow"
           >
             <svg
-              class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-600"
+              class="absolute top-0 left-0 w-8 h-8 text-indigo-600 transform -translate-x-3 -translate-y-2"
               fill="currentColor"
               viewBox="0 0 32 32"
             >
@@ -130,19 +130,19 @@
           <footer class="mt-8">
             <div class="flex">
               <div
-                class="flex-shrink-0 inline-flex rounded-full border-2 border-white"
+                class="inline-flex flex-shrink-0 border-2 border-white rounded-full"
               >
                 <img
-                  class="h-12 w-12 rounded-full"
+                  class="w-12 h-12 rounded-full"
                   src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                   alt=""
                 />
               </div>
               <div class="ml-4">
-                <div class="text-base leading-6 font-medium text-white">
+                <div class="text-base font-medium leading-6 text-white">
                   Judith Black
                 </div>
-                <div class="text-base leading-6 font-medium text-indigo-200">
+                <div class="text-base font-medium leading-6 text-indigo-200">
                   CEO, Tuple
                 </div>
               </div>
