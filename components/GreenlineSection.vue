@@ -3,10 +3,12 @@
     id="case-study"
     class="flex flex-col py-12 min-h-md md:flex-row bg-charcoal-grey-4"
   >
-    <div class="relative hidden w-full min-h-full lg:block lg:w-2/5 bg-clothes">
+    <div
+      class="relative hidden w-full min-h-full lg:block lg:w-2/5 bg-clothing"
+    >
       <div>
         <img
-          src="https://cion.agency/_nuxt/img/fd26de7.png"
+          src="~/assets/greenline-screenshot.jpg"
           class="absolute bottom-0 right-0 max-w-md mb-10 -mr-20 shadow md:w-full"
         />
       </div>
@@ -185,9 +187,9 @@
   </section>
 </template>
 
-<style>
-.bg-clothes {
-  background: url(https://cion.agency/_nuxt/img/92ed016.png);
+<style scoped>
+.bg-clothing {
+  background: url('~assets/bg-greenline-section.jpg');
   background-size: cover;
 }
 </style>
