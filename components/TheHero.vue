@@ -115,7 +115,7 @@
             </div>
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
               <a
-                href="#"
+                href="#strategy"
                 class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
               >
                 What do we do?
