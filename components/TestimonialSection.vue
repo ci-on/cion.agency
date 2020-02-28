@@ -5,28 +5,11 @@
         class="px-4 py-12 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16"
       >
         <div class="md:flex-shrink-0">
-          <svg fill="none" height="40" viewBox="0 0 105 40">
-            <path
-              fill="#B4C6FC"
-              fill-rule="evenodd"
-              d="M18 1L0 7v19.5l6 2V34l18 6V8.5l-6 2V1zM8 29.167L18 32.5V12.608l4-1.333v25.95L8 32.558v-3.391z"
-              clip-rule="evenodd"
-            />
-            <path
-              fill="#B4C6FC"
-              d="M42.9 28V17.45h-3.51v-3.392h11.486v3.393h-3.53V28H42.9zM59.481 28.254c-4.075 0-6.376-2.028-6.376-6.006v-8.19h4.407v8.014c0 1.814.39 2.71 1.97 2.71 1.56 0 1.95-.896 1.95-2.73v-7.994h4.445v8.15c0 4.193-2.496 6.046-6.396 6.046z"
-            />
-            <path
-              fill="#B4C6FC"
-              fill-rule="evenodd"
-              d="M68.965 14.058V28h4.407v-4.543h1.346c3.607 0 5.538-1.638 5.538-4.544v-.078c0-2.983-1.716-4.777-5.733-4.777h-5.558zm4.407 6.435h.916c1.17 0 1.775-.527 1.775-1.56v-.078c0-1.073-.605-1.502-1.755-1.502h-.936v3.14z"
-              clip-rule="evenodd"
-            />
-            <path
-              fill="#B4C6FC"
-              d="M82.563 14.058V28h9.497v-3.412h-5.07v-10.53h-4.427zM94.562 28V14.058h9.906v3.393h-5.499v1.97h4.368v3.1h-4.368v2.086h5.811V28H94.562z"
-            />
-          </svg>
+          <img
+            class="max-h-8"
+            src="~/assets/meema-logo-indigo.svg"
+            alt="Meema"
+          />
         </div>
         <blockquote class="mt-8 md:flex-grow md:flex md:flex-col">
           <div
@@ -42,9 +25,11 @@
               />
             </svg>
             <p class="relative">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
-              in laborum sed rerum et corporis.
+              Having worked with CION for the last few months made me appreciate
+              and love their quality of work. Coming from a software development
+              background myself, the quality of code delivered is of immense
+              importance to me. It’s a calming feeling to be able to trust their
+              shipped code blindly.
             </p>
           </div>
           <footer class="mt-8">
@@ -54,16 +39,16 @@
               >
                 <img
                   class="w-12 h-12 rounded-full"
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                  alt=""
+                  src="~/assets/andres-garcia.jpg"
+                  alt="Andres Garcia"
                 />
               </div>
               <div class="ml-4">
                 <div class="text-base font-medium leading-6 text-white">
-                  Judith Black
+                  Andres Garcia
                 </div>
                 <div class="text-base font-medium leading-6 text-indigo-200">
-                  CEO, Tuple
+                  Co-Founder, Meema
                 </div>
               </div>
             </div>

@@ -41,6 +41,11 @@
             <a
               href="#"
               class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              >Strategy</a
+            >
+            <a
+              href="#"
+              class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
               >Services</a
             >
             <a

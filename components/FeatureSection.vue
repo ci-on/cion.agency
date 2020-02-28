@@ -1,8 +1,8 @@
 <template>
-  <div class="bg-gray-50 overflow-hidden">
-    <div class="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+  <div class="overflow-hidden bg-gray-50">
+    <div class="relative max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
       <svg
-        class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+        class="absolute top-0 transform -translate-x-1/2 left-full -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
         width="404"
         height="784"
         fill="none"
@@ -33,7 +33,7 @@
       <div class="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
         <div class="lg:col-span-1">
           <h3
-            class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+            class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
           >
             Digital Strategy Matters.
           </h3>
@@ -43,10 +43,10 @@
         >
           <div>
             <div
-              class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
             >
               <svg
-                class="h-6 w-6"
+                class="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -60,7 +60,7 @@
               </svg>
             </div>
             <div class="mt-5">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">
+              <h5 class="text-lg font-medium leading-6 text-gray-900">
                 Discover
               </h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
@@ -72,10 +72,10 @@
 
           <div class="mt-10 sm:mt-0">
             <div
-              class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
             >
               <svg
-                class="h-6 w-6"
+                class="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -89,7 +89,7 @@
               </svg>
             </div>
             <div class="mt-5">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">
+              <h5 class="text-lg font-medium leading-6 text-gray-900">
                 Cultivate
               </h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
@@ -101,10 +101,10 @@
 
           <div class="mt-10 sm:mt-0">
             <div
-              class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
             >
               <svg
-                class="h-6 w-6"
+                class="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -118,7 +118,7 @@
               </svg>
             </div>
             <div class="mt-5">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">
+              <h5 class="text-lg font-medium leading-6 text-gray-900">
                 Launch
               </h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
@@ -130,10 +130,10 @@
 
           <div class="mt-10 sm:mt-0">
             <div
-              class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
             >
               <svg
-                class="h-6 w-6"
+                class="w-6 h-6"
                 stroke="currentColor"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -147,12 +147,12 @@
               </svg>
             </div>
             <div class="mt-5">
-              <h5 class="text-lg leading-6 font-medium text-gray-900">
-                Discover
+              <h5 class="text-lg font-medium leading-6 text-gray-900">
+                SaaS Experts
               </h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
-                We study the in’s and out’s of your brand to craft a meaningful
-                strategy.
+                One of our expertise is helping plan, scale and develop custom
+                SaaS applications.
               </p>
             </div>
           </div>

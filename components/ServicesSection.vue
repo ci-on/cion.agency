@@ -42,15 +42,29 @@
               </div>
               <div class="mt-5">
                 <h5 class="text-lg font-medium leading-6 text-gray-900">
-                  Competitive exchange rates
+                  Digital
                 </h5>
+
                 <p class="mt-2 text-base leading-6 text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.
+                  Information is the DNA of a Company. We build effective
+                  solutions to use it.
                 </p>
+
+                <div class="flex items-center pt-6 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-digital.svg" alt="bullet point" />
+                  <span class="pl-3">Custom Software Dev</span>
+                </div>
+                <div class="flex items-center pt-4 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-digital.svg" alt="bullet point" />
+                  <span class="pl-3">Web & Mobile App Dev</span>
+                </div>
+                <div class="flex items-center pt-4 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-digital.svg" alt="bullet point" />
+                  <span class="pl-3">Database Design</span>
+                </div>
               </div>
             </div>
+
             <div class="mt-10 lg:mt-0">
               <div
                 class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
@@ -69,15 +83,29 @@
                   />
                 </svg>
               </div>
+
               <div class="mt-5">
                 <h5 class="text-lg font-medium leading-6 text-gray-900">
-                  No hidden fees
+                  Strategy
                 </h5>
+
                 <p class="mt-2 text-base leading-6 text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.
+                  It’s not just about the end goal, but the way we get there is
+                  just as crucial.
                 </p>
+
+                <div class="flex items-center pt-6 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-strategy.svg" alt="bullet point" />
+                  <span class="pl-3">Brand Consultation</span>
+                </div>
+                <div class="flex items-center pt-4 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-strategy.svg" alt="bullet point" />
+                  <span class="pl-3">Market Strategy</span>
+                </div>
+                <div class="flex items-center pt-4 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-strategy.svg" alt="bullet point" />
+                  <span class="pl-3">Audience Connection</span>
+                </div>
               </div>
             </div>
             <div class="mt-10 lg:mt-0">
@@ -98,15 +126,29 @@
                   />
                 </svg>
               </div>
+
               <div class="mt-5">
                 <h5 class="text-lg font-medium leading-6 text-gray-900">
-                  Transfers are instant
+                  Creative
                 </h5>
+
                 <p class="mt-2 text-base leading-6 text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.
+                  Impactful branding & interfaces all have one similarity, user
+                  driven design.
                 </p>
+
+                <div class="flex items-center pt-6 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-creative.svg" alt="bullet point" />
+                  <span class="pl-3">Brand & Visual Identity</span>
+                </div>
+                <div class="flex items-center pt-4 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-creative.svg" alt="bullet point" />
+                  <span class="pl-3">Interaction Design</span>
+                </div>
+                <div class="flex items-center pt-4 pl-4 text-gray-500">
+                  <img src="~/assets/bullet-creative.svg" alt="bullet point" />
+                  <span class="pl-3">Photography & Videography</span>
+                </div>
               </div>
             </div>
           </div>
