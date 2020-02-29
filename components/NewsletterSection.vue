@@ -7,7 +7,7 @@
         <h2
           class="text-3xl font-extrabold leading-9 tracking-tight text-white sm:text-4xl sm:leading-10"
         >
-          Want products news and updates?
+          Want product news and updates?
         </h2>
         <p class="max-w-3xl mt-3 text-lg leading-6 text-gray-300">
           We send out monthly newsletters with development tips and the latest
