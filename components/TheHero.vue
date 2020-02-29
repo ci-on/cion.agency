@@ -1,5 +1,5 @@
 <template>
-  <div class="relative overflow-hidden bg-gray-50">
+  <div class="relative overflow-hidden bg-gray-50 bg-man">
     <background-pattern />
 
     <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
@@ -145,3 +145,13 @@ export default {
   }
 }
 </script>
+
+<style>
+.bg-man {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+  background: url('~assets/man-working.jpg');
+  background-blend-mode: color;
+  background-size: cover;
+  background-position: bottom;
+}
+</style>
