@@ -14,7 +14,7 @@
   "dependencies": {
     "@tailwindcss/ui": "^0.1.2",
     "nuxt": "^2.0.0",
-    "nuxt-gmaps": "^1.1.8",
+    "nuxt-gmaps": "^1.1.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",

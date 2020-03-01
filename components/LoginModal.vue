@@ -32,10 +32,7 @@
         <div class="absolute top-0 right-0 mt-2 mr-2">
           <button
             class="justify-center w-10 h-10 text-sm font-bold text-indigo-500 uppercase border-2 rounded-full hover:text-white md:h-12 md:w-12 md:text-base lg:h-16 lg:w-16 lg:text-xl hover:bg-indigo-500"
-            @click="
-              open = false
-              $emit('closed')
-            "
+            @click="$emit('closed')"
           >
             Exit
           </button>
