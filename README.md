@@ -1,10 +1,10 @@
-# cion.agency
+# cion.agency [![Netlify Status](https://api.netlify.com/api/v1/badges/d9bc16fa-b20a-4780-bed7-860ac8701412/deploy-status)](https://app.netlify.com/sites/cion/deploys)
 
 > Official site for cion.agency
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
