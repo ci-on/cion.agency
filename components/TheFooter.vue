@@ -40,15 +40,16 @@
           <a
             href="#contact"
             class="text-base leading-6 text-gray-500 hover:text-gray-900"
+            @click="$emit('show:contact')"
           >
             Contact
           </a>
         </div>
         <div class="px-5 py-2">
           <a
-            href="#"
+            href="#client-portal"
             class="text-base leading-6 text-gray-500 hover:text-gray-900"
-            @click="showLogin = true"
+            @click="$emit('show:login')"
           >
             Client Portal
           </a>

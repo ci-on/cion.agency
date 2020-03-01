@@ -2,6 +2,7 @@
   <div
     v-show="open"
     class="fixed inset-x-0 bottom-0 z-50 px-4 pb-6 sm:inset-0 sm:p-0 sm:flex sm:items-center sm:justify-center"
+    @click="$emit('closed')"
   >
     <transition
       v-show="open"

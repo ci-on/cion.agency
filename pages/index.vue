@@ -10,7 +10,10 @@
     <newsletter-section />
     <logo-cloud />
     <testimonial-section />
-    <the-footer @show:contact="showLogin = true" />
+    <the-footer
+      @show:contact="showContact = true"
+      @show:login="showLogin = true"
+    />
 
     <login-modal :open="showLogin" @closed="showLogin = false" />
     <contact-modal :open="showContact" @closed="showContact = false" />
