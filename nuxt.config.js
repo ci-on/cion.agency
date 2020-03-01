@@ -4,6 +4,10 @@ export default {
    ** Headers of the page
    */
   head: {
+    htmlAttrs: {
+      lang: 'en'
+    },
+
     title: 'CION Agency',
 
     meta: [
