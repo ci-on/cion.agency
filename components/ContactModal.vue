@@ -75,6 +75,8 @@
             class="flex flex-col items-center justify-center w-1/2 h-full overflow-auto bg-indigo-600 rounded"
           >
             <form name="contact" class="px-8" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
+
               <div class="mb-10 text-center">
                 <h1
                   class="mb-2 text-4xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none md:text-6xl"
