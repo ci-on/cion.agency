@@ -74,7 +74,7 @@
           <div
             class="flex flex-col items-center justify-center w-1/2 h-full overflow-auto bg-indigo-600 rounded"
           >
-            <form class="px-8">
+            <form name="contact" class="px-8" method="POST" data-netlify="true">
               <div class="mb-10 text-center">
                 <h1
                   class="mb-2 text-4xl font-extrabold leading-10 tracking-tight text-white sm:text-5xl sm:leading-none md:text-6xl"
@@ -130,7 +130,7 @@
               <div class="flex items-center justify-center">
                 <span class="inline-flex rounded-md shadow-sm">
                   <button
-                    type="button"
+                    type="submit"
                     class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700"
                   >
                     <svg
