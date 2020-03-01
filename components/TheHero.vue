@@ -4,7 +4,81 @@
 
     <div class="relative pt-6 pb-12 sm:pb-16 md:pb-20 lg:pb-28 xl:pb-32">
       <div class="max-w-screen-xl px-4 mx-auto sm:px-6">
-        <the-nav />
+        <nav
+          class="relative flex items-center justify-between sm:h-10 md:justify-center"
+        >
+          <div
+            class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"
+          >
+            <div class="flex items-center justify-between w-full md:w-auto">
+              <a href="#">
+                <cion-logo-small style="height: 50px" />
+              </a>
+              <div class="flex items-center -mr-2 md:hidden">
+                <button
+                  type="button"
+                  class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+                  @click="open = true"
+                >
+                  <svg
+                    class="w-6 h-6"
+                    stroke="currentColor"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="hidden md:block">
+            <a
+              href="#strategy"
+              class="font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              >Strategy</a
+            >
+            <a
+              href="#services"
+              class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              >Services</a
+            >
+            <a
+              href="#case-study"
+              class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              >Case Study</a
+            >
+            <a
+              href="#clients"
+              class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              >Clients</a
+            >
+            <a
+              href="#contact"
+              class="ml-10 font-medium text-gray-500 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900"
+              @click="$emit('show:contact')"
+              >Contact</a
+            >
+          </div>
+          <div
+            class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0"
+          >
+            <span class="inline-flex rounded-md shadow">
+              <a
+                href="#client-portal"
+                class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-indigo-700"
+                @click="$emit('show:login')"
+              >
+                Client Portal
+              </a>
+            </span>
+          </div>
+        </nav>
       </div>
 
       <div
@@ -24,18 +98,11 @@
         >
           <div class="overflow-hidden bg-white rounded-lg shadow-xs">
             <div class="flex items-center justify-between px-5 pt-4">
-              <div>
-                <img
-                  class="w-auto h-8"
-                  src="/img/logos/workflow-mark-on-white.svg"
-                  alt=""
-                />
-              </div>
               <div class="-mr-2">
                 <button
                   type="button"
                   class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
-                  @click="open = false"
+                  @click="open = true"
                 >
                   <svg
                     class="w-6 h-6"
@@ -79,6 +146,7 @@
               <a
                 href="#"
                 class="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
+                @click="$emit('show:login')"
               >
                 Client Portal
               </a>
@@ -107,8 +175,9 @@
           <div class="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
             <div class="rounded-md shadow">
               <a
-                href="#"
+                href="#contact"
                 class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10"
+                @click="$emit('show:contact')"
               >
                 Let's talk
               </a>
@@ -130,12 +199,12 @@
 
 <script>
 import BackgroundPattern from './BackgroundPattern'
-import TheNav from './TheNav'
+import CionLogoSmall from './CionLogoSmall'
 
 export default {
   components: {
     BackgroundPattern,
-    TheNav
+    CionLogoSmall
   },
 
   data() {

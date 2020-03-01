@@ -48,6 +48,7 @@
           <a
             href="#"
             class="text-base leading-6 text-gray-500 hover:text-gray-900"
+            @click="showLogin = true"
           >
             Client Portal
           </a>

@@ -145,7 +145,15 @@ fathom('trackPageview');
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: [
+    [
+      'nuxt-gmaps',
+      {
+        key: 'AIzaSyC3t3Abgd92oce_tVLGZXP8bJld75jDRSA'
+        // you can use libraries: ['places']
+      }
+    ]
+  ],
   /*
    ** Build configuration
    */
