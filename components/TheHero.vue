@@ -102,10 +102,10 @@
                 <button
                   type="button"
                   class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
-                  @click="open = true"
+                  @click="open = false"
                 >
                   <svg
-                    class="w-6 h-6"
+                    class="w-8 h-8"
                     stroke="currentColor"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -120,36 +120,62 @@
                 </button>
               </div>
             </div>
-            <div class="px-2 pt-2 pb-3">
-              <a
-                href="#"
-                class="block px-3 py-2 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
-                >Product</a
+            <div class="flex flex-col w-full h-full px-2 pb-3">
+              <div
+                class="flex justify-center w-full transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
               >
-              <a
-                href="#"
-                class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
-                >Features</a
+                <a
+                  href="#strategy"
+                  class="block px-3 py-2 text-lg font-medium text-gray-700 transition duration-150 ease-in-out hover:text-gray-900 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
+                  >Strategy</a
+                >
+              </div>
+              <div
+                class="flex justify-center w-full transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
               >
-              <a
-                href="#"
-                class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
-                >Marketplace</a
+                <a
+                  href="#services"
+                  class="block px-3 py-2 mt-1 text-lg font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
+                  >Services</a
+                >
+              </div>
+              <div
+                class="flex justify-center w-full transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
               >
-              <a
-                href="#"
-                class="block px-3 py-2 mt-1 text-base font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
-                >Company</a
+                <a
+                  href="#case-studys"
+                  class="block px-3 py-2 mt-1 text-lg font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
+                  >Case Studys</a
+                >
+              </div>
+              <div
+                class="flex justify-center w-full transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
               >
-            </div>
-            <div>
-              <a
-                href="#"
-                class="block w-full px-5 py-3 font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
-                @click="$emit('show:login')"
+                <a
+                  href="#clients"
+                  class="block px-3 py-2 mt-1 text-lg font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
+                  >Clients</a
+                >
+              </div>
+              <div
+                class="flex justify-center w-full transition duration-150 ease-in-out rounded-md hover:bg-gray-50"
               >
-                Client Portal
-              </a>
+                <a
+                  href="#contact"
+                  class="block px-3 py-2 mt-1 text-lg font-medium text-gray-700 transition duration-150 ease-in-out rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50"
+                  @click="$emit('show:contact')"
+                  >Contact</a
+                >
+              </div>
+              <div>
+                <a
+                  href="#"
+                  class="block w-full px-5 py-3 text-lg font-medium text-center text-indigo-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700"
+                  @click="$emit('show:login')"
+                >
+                  Client Portal
+                </a>
+              </div>
             </div>
           </div>
         </transition>
@@ -167,7 +193,7 @@
             <span class="text-indigo-600">experiences</span>
           </h2>
           <p
-            class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
+            class="max-w-md mx-auto mt-3 text-lg text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
           >
             We have a knack for transforming businesses with creative digital
             solutions
@@ -176,7 +202,7 @@
             <div class="rounded-md shadow">
               <a
                 href="#contact"
-                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10"
+                class="flex items-center justify-center w-full px-8 py-3 text-lg font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo md:py-4 md:text-lg md:px-10"
                 @click="$emit('show:contact')"
               >
                 Let's talk
@@ -185,7 +211,7 @@
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
               <a
                 href="#strategy"
-                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
+                class="flex items-center justify-center w-full px-8 py-3 text-lg font-medium leading-6 text-indigo-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
               >
                 What do we do?
               </a>
@@ -193,6 +219,7 @@
           </div>
         </div>
       </div>
+      s
     </div>
   </div>
 </template>
