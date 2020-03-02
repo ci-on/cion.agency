@@ -1,7 +1,7 @@
 <template>
   <div
     v-show="open"
-    class="fixed inset-x-0 bottom-0 z-50 px-4 pb-6 sm:inset-0 sm:p-0 sm:flex sm:items-center sm:justify-center"
+    class="fixed inset-0 z-50 flex items-center justify-center p-0 "
   >
     <transition
       v-show="open"
@@ -27,7 +27,7 @@
       <div
         v-show="open"
         ref="modal"
-        class="relative w-1/2 overflow-hidden transition-all transform bg-white rounded-lg shadow-xl h-11/12"
+        class="relative w-11/12 overflow-hidden transition-all transform bg-white rounded-lg shadow-xl md:w-1/2 h-11/12"
       >
         <div class="absolute top-0 right-0 mt-2 mr-2">
           <button
@@ -38,7 +38,7 @@
           </button>
         </div>
         <div
-          class="flex flex-col justify-center h-full py-12 overflow-auto bg-gray-50 sm:px-6 lg:px-8"
+          class="flex flex-col justify-center h-full overflow-auto bg-gray-50"
         >
           <div class="sm:mx-auto sm:w-full sm:max-w-md">
             <cion-logo class="h-10 mx-auto" />
