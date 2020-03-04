@@ -134,7 +134,7 @@ export default {
     [
       'nuxt-gmaps',
       {
-        key: 'AIzaSyC3t3Abgd92oce_tVLGZXP8bJld75jDRSA'
+        key: 'AIzaSyDTzYgTc-9h4y74puUNPpk7KuEY4ecY1hw'
         // you can use libraries: ['places']
       }
     ]
