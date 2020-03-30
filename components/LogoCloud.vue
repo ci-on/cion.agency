@@ -8,7 +8,7 @@
       </p>
       <div class="mt-6 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-8">
         <div
-          class="flex justify-center col-span-1 px-8 py-8 bg-gray-50"
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
           @mouseover="hovering = 'aetna'"
           @mouseleave="hovering = null"
         >
@@ -24,12 +24,12 @@
         </div>
 
         <div
-          class="flex justify-center col-span-1 px-8 py-8 bg-gray-50"
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
           @mouseover="hovering = 'meema'"
           @mouseleave="hovering = null"
         >
           <img
-            class="max-h-12"
+            class="max-h-10"
             :src="
               hovering === 'meema'
                 ? '/meema-logo-color.svg'
@@ -40,7 +40,7 @@
         </div>
 
         <div
-          class="flex justify-center col-span-1 px-8 py-8 bg-gray-50"
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
           @mouseover="hovering = 'girlgaze'"
           @mouseleave="hovering = null"
         >
@@ -55,8 +55,8 @@
           />
         </div>
 
-        <div
-          class="flex justify-center col-span-1 px-8 py-8 bg-gray-50"
+        <!-- <div
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
           @mouseover="hovering = 'greenline'"
           @mouseleave="hovering = null"
         >
@@ -69,10 +69,26 @@
             "
             alt="Greenline"
           />
+        </div> -->
+
+        <div
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
+          @mouseover="hovering = 'bixolon'"
+          @mouseleave="hovering = null"
+        >
+          <img
+            class="max-h-6"
+            :src="
+              hovering === 'bixolon'
+                ? '/bixolon-logo-color.svg'
+                : '/bixolon-logo-gray.svg'
+            "
+            alt="Bixolon"
+          />
         </div>
 
         <div
-          class="flex justify-center col-span-1 px-8 py-8 bg-gray-50"
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
           @mouseover="hovering = 'carefree'"
           @mouseleave="hovering = null"
         >
@@ -88,12 +104,12 @@
         </div>
 
         <div
-          class="flex justify-center col-span-1 px-8 py-8 bg-gray-50"
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
           @mouseover="hovering = 'mutesix'"
           @mouseleave="hovering = null"
         >
           <img
-            class="max-h-8"
+            class="max-h-6"
             :src="
               hovering === 'mutesix'
                 ? '/mutesix-logo-color.svg'
