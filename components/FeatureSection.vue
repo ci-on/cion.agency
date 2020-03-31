@@ -43,7 +43,7 @@
         >
           <div>
             <div
-              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
+              class="flex items-center justify-center w-12 h-12 text-white bg-teal-500 rounded-md"
             >
               <svg
                 class="w-6 h-6"
@@ -72,7 +72,7 @@
 
           <div class="mt-10 sm:mt-0">
             <div
-              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
+              class="flex items-center justify-center w-12 h-12 text-white bg-teal-500 rounded-md"
             >
               <svg
                 class="w-6 h-6"
@@ -101,7 +101,7 @@
 
           <div class="mt-10 sm:mt-0">
             <div
-              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
+              class="flex items-center justify-center w-12 h-12 text-white bg-teal-500 rounded-md"
             >
               <svg
                 class="w-6 h-6"
@@ -130,7 +130,7 @@
 
           <div class="mt-10 sm:mt-0">
             <div
-              class="flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md"
+              class="flex items-center justify-center w-12 h-12 text-white bg-teal-500 rounded-md"
             >
               <svg
                 class="w-6 h-6"

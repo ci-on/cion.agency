@@ -31,7 +31,7 @@
                 </div>
 
                 <svg
-                  class="hidden w-5 h-5 mx-1 text-indigo-600 md:block"
+                  class="hidden w-5 h-5 mx-1 text-teal-600 md:block"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >

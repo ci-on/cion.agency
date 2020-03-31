@@ -72,7 +72,7 @@
 
         <div class="relative lg:ml-10">
           <svg
-            class="absolute top-0 left-0 text-indigo-200 transform -translate-x-8 -translate-y-24 opacity-50 h-36 w-36"
+            class="absolute top-0 left-0 text-teal-200 transform -translate-x-8 -translate-y-24 opacity-50 h-36 w-36"
             stroke="currentColor"
             fill="none"
             viewBox="0 0 144 144"
@@ -105,7 +105,7 @@
                   <div class="text-base font-medium leading-6 text-grya-900">
                     Andres Garcia
                   </div>
-                  <div class="text-base font-medium leading-6 text-indigo-600">
+                  <div class="text-base font-medium leading-6 text-teal-600">
                     Co-Founder, Meema
                   </div>
                 </div>

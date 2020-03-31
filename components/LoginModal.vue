@@ -31,7 +31,7 @@
       >
         <div class="absolute top-0 right-0 mt-2 mr-2">
           <button
-            class="justify-center w-10 h-10 text-sm font-bold text-indigo-500 uppercase border-2 rounded-full hover:text-white md:h-12 md:w-12 md:text-base lg:h-16 lg:w-16 lg:text-xl hover:bg-indigo-500"
+            class="justify-center w-10 h-10 text-sm font-bold text-teal-500 uppercase border-2 rounded-full hover:text-white md:h-12 md:w-12 md:text-base lg:h-16 lg:w-16 lg:text-xl hover:bg-teal-500"
             @click="$emit('closed')"
           >
             Exit
@@ -51,7 +51,7 @@
             <p class="mt-2 text-sm leading-5 text-center text-gray-600 max-w">
               Or
               <a
-                class="font-medium text-indigo-600 transition duration-150 ease-in-out focus:outline-none focus:underline"
+                class="font-medium text-teal-600 transition duration-150 ease-in-out focus:outline-none focus:underline"
               >
                 contact us with any questions.
               </a>
@@ -100,7 +100,7 @@
                     <input
                       id="remember_me"
                       type="checkbox"
-                      class="w-4 h-4 text-indigo-600 transition duration-150 ease-in-out form-checkbox"
+                      class="w-4 h-4 text-teal-600 transition duration-150 ease-in-out form-checkbox"
                     />
                     <label
                       for="remember_me"
@@ -113,7 +113,7 @@
                   <div class="text-sm leading-5">
                     <a
                       href="#"
-                      class="font-medium text-indigo-600 transition duration-150 ease-in-out hover:text-indigo-500 focus:outline-none focus:underline"
+                      class="font-medium text-teal-600 transition duration-150 ease-in-out hover:text-teal-500 focus:outline-none focus:underline"
                     >
                       Forgot your password?
                     </a>
@@ -124,7 +124,7 @@
                   <span class="block w-full rounded-md shadow-sm">
                     <button
                       type="submit"
-                      class="flex justify-center w-full px-4 py-2 text-sm font-medium text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700"
+                      class="flex justify-center w-full px-4 py-2 text-sm font-medium text-white transition duration-150 ease-in-out bg-teal-600 border border-transparent rounded-md hover:bg-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal active:bg-teal-700"
                     >
                       Sign in
                     </button>
