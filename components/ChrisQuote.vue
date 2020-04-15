@@ -9,9 +9,11 @@
             class="max-w-3xl mx-auto text-2xl font-medium leading-9 text-center text-gray-900"
           >
             <p>
-              &ldquo;CION is a Software Development & Creative Agency based in
-              Downtown Los Angeles. Time and time again we are able to help our
-              clients grow what matters most to them, relationships. &rdquo;
+              &ldquo;We specialize in modern PHP &amp; JavaScript development
+              and think of ourselves as Laravel &amp; Vue.js experts. Our team
+              has more than 50 years of combined experience and provides a
+              variety of skills readily available to meet your needs for new
+              branding and custom software. &rdquo;
             </p>
           </div>
           <footer class="mt-8">
@@ -20,7 +22,7 @@
                 <img
                   class="w-10 h-10 mx-auto rounded-full"
                   src="~/assets/chris.jpeg"
-                  alt=""
+                  alt="Chris Breuer Avatar"
                 />
               </div>
               <div
