@@ -13,7 +13,7 @@
               and think of ourselves as Laravel &amp; Vue.js experts. Our team
               has more than 50 years of combined experience and provides a
               variety of skills readily available to meet your needs for new
-              branding and custom software. &rdquo;
+              custom software &amp; branding.&rdquo;
             </p>
           </div>
           <footer class="mt-8">
