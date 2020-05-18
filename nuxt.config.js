@@ -8,7 +8,7 @@ export default {
       lang: 'en'
     },
 
-    title: 'CION Agency',
+    title: 'Eliinova',
 
     meta: [
       { charset: 'utf-8' },
@@ -17,39 +17,42 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'
+          'Eliinova is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'
       },
       { name: 'theme-color', content: '#00bcd4' },
       {
         name: 'keywords',
-        content: 'CION,Website,Agency,Artificial Intelligence'
+        content: 'Eliinova,Website,Agency,Artificial Intelligence'
       },
       {
         name: 'description',
         content:
-          'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'
+          'Eliinova is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'
       },
       {
         property: 'og:description',
         content:
-          'CION is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'
+          'Eliinova is a software development agency specializing in modern PHP, Laravel, Craft CMS, and Vue.js development'
       },
       {
         property: 'og:title',
         content:
-          'CION Agency | Product Development for Web & Mobile | Laravel + Vue.js | Artificial Intelligence'
+          'Eliinova | Product Development for Web & Mobile | Laravel + Vue.js | Artificial Intelligence'
       },
       {
         property: 'og:image',
-        content: 'https://cion.agency/favicon/cion-logo.png'
+        content: 'https://eliinova.com/favicon/eliinova-logo.png'
       },
-      { property: 'og:image:alt', content: 'CION Logo | Consulting Agency' },
-      { property: 'og:url', content: 'https://cion.agency/' },
+      {
+        property: 'og:image:alt',
+        content: 'Eliinova Logo | Consulting Agency'
+      },
+      { property: 'og:url', content: 'https://eliinova.com/' },
       { property: 'og:type', content: 'website' }
     ],
 
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon/cion-logo.png' },
+      { rel: 'icon', type: 'image/png', href: '/favicon/eliinova-logo.png' },
       {
         rel: 'apple-touch-icon',
         sizes: '57x57',
@@ -146,6 +149,6 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) { }
+    extend(config, ctx) {}
   }
 }

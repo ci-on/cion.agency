@@ -85,7 +85,7 @@
           <blockquote>
             <div class="text-2xl font-medium leading-9 text-gray-900">
               <p>
-                Having worked with CION for the last few months made me
+                Having worked with Eliinova for the last few months made me
                 appreciate and love their quality of work. Coming from a
                 software development background myself, the quality of code
                 delivered is of immense importance to me. It’s a calming feeling
@@ -105,8 +105,10 @@
                   <div class="text-base font-medium leading-6 text-grya-900">
                     Andres Garcia
                   </div>
-                  <div class="text-base font-medium leading-6 text-teal-600">
-                    Co-Founder, Meema
+                  <div
+                    class="text-base font-medium leading-6 text-eliinova-teal"
+                  >
+                    Co-Founder, Acme, Inc.
                   </div>
                 </div>
               </div>

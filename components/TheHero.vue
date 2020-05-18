@@ -12,7 +12,7 @@
           >
             <div class="flex items-center justify-between w-full md:w-auto">
               <a href="#">
-                <cion-logo-small style="height: 50px" />
+                <eliinova-logo-small />
               </a>
               <div class="flex items-center -mr-2 md:hidden">
                 <button
@@ -71,7 +71,7 @@
             <span class="inline-flex rounded-md shadow">
               <a
                 href="#client-portal"
-                class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-teal-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-teal-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-teal-700"
+                class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-eliinova-teal transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-teal-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-teal-700"
                 @click="$emit('show:login')"
               >
                 Client Portal
@@ -145,7 +145,7 @@
             <div>
               <a
                 href="#"
-                class="block w-full px-5 py-3 font-medium text-center text-teal-600 transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-teal-700 focus:outline-none focus:bg-gray-100 focus:text-teal-700"
+                class="block w-full px-5 py-3 font-medium text-center text-eliinova-teal transition duration-150 ease-in-out bg-gray-50 hover:bg-gray-100 hover:text-teal-700 focus:outline-none focus:bg-gray-100 focus:text-teal-700"
                 @click="$emit('show:login')"
               >
                 Client Portal
@@ -164,7 +164,7 @@
           >
             Build awesome digital
             <br class="xl:hidden" />
-            <span class="text-teal-600">experiences</span>
+            <span class="text-eliinova-teal">experiences</span>
           </h2>
           <p
             class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
@@ -176,7 +176,7 @@
             <div class="rounded-md shadow">
               <a
                 href="#contact"
-                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-teal-600 border border-transparent rounded-md hover:bg-teal-500 focus:outline-none focus:shadow-outline-teal md:py-4 md:text-lg md:px-10"
+                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-eliinova-teal border border-transparent rounded-md hover:bg-teal-500 focus:outline-none focus:shadow-outline-teal md:py-4 md:text-lg md:px-10"
                 @click="$emit('show:contact')"
               >
                 Let's talk
@@ -185,7 +185,7 @@
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
               <a
                 href="#strategy"
-                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-teal-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-teal-500 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
+                class="flex items-center justify-center w-full px-8 py-3 text-base font-medium leading-6 text-eliinova-teal transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-teal-500 focus:outline-none focus:shadow-outline-blue md:py-4 md:text-lg md:px-10"
               >
                 What do we do?
               </a>
@@ -199,12 +199,12 @@
 
 <script>
 import BackgroundPattern from './BackgroundPattern'
-import CionLogoSmall from './CionLogoSmall'
+import EliinovaLogoSmall from './EliinovaLogoSmall'
 
 export default {
   components: {
     BackgroundPattern,
-    CionLogoSmall
+    EliinovaLogoSmall
   },
 
   data() {

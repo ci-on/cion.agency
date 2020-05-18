@@ -57,7 +57,7 @@
       </nav>
       <div class="flex justify-center mt-8">
         <a
-          href="https://www.linkedin.com/company/cion-agency/"
+          href="https://www.linkedin.com/company/eliinova/"
           class="text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">LinkedIn</span>
@@ -68,7 +68,7 @@
           </svg>
         </a>
         <a
-          href="https://github.com/ci-on"
+          href="https://github.com/Eliinova"
           class="ml-6 text-gray-400 hover:text-gray-500"
         >
           <span class="sr-only">GitHub</span>
@@ -83,7 +83,7 @@
       </div>
       <div class="mt-8">
         <p class="text-base leading-6 text-center text-gray-400">
-          &copy; 2020 CION, LLC. All rights reserved.
+          &copy; 2020 Eliinova, LLC. All rights reserved.
         </p>
       </div>
     </div>

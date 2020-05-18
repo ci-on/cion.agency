@@ -2,7 +2,7 @@
   <div class="py-12 overflow-hidden bg-white md:py-20 lg:py-24">
     <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
       <div class="relative">
-        <cion-logo class="h-10 mx-auto" />
+        <eliinova-logo class="h-10 mx-auto" />
 
         <blockquote class="mt-8">
           <div
@@ -22,18 +22,18 @@
                 <img
                   class="w-10 h-10 mx-auto rounded-full"
                   src="~/assets/chris.jpeg"
-                  alt="Chris Breuer Avatar"
+                  alt="Pujen Solanki Avatar"
                 />
               </div>
               <div
                 class="mt-3 text-center md:mt-0 md:ml-4 md:flex md:items-center"
               >
                 <div class="text-base font-medium leading-6 text-gray-900">
-                  Chris Breuer
+                  Pujen Solanki
                 </div>
 
                 <svg
-                  class="hidden w-5 h-5 mx-1 text-teal-600 md:block"
+                  class="hidden w-5 h-5 mx-1 text-eliinova-teal md:block"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                 >
@@ -41,7 +41,7 @@
                 </svg>
 
                 <div class="text-base font-medium leading-6 text-gray-500">
-                  Founder & Tech Lead, CION Agency
+                  Founder & CEO, Eliinova
                 </div>
               </div>
             </div>
@@ -53,11 +53,11 @@
 </template>
 
 <script>
-import CionLogo from './CionLogo'
+import EliinovaLogo from './EliinovaLogo'
 
 export default {
   components: {
-    CionLogo
+    EliinovaLogo
   }
 }
 </script>

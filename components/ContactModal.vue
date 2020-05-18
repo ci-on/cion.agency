@@ -60,7 +60,7 @@
                 @click="currentLocation = location"
               >
                 <GMapInfoWindow>
-                  <h3 class="mb-1 font-bold">CION Agency</h3>
+                  <h3 class="mb-1 font-bold">Eliinova</h3>
                   <span>770 S Grand Ave</span>
                   <br />
                   <span>Los Angeles, CA 90017</span>
@@ -72,7 +72,7 @@
           </div>
 
           <div
-            class="flex flex-col items-center justify-center w-1/2 h-full overflow-auto bg-teal-600 rounded"
+            class="flex flex-col items-center justify-center w-1/2 h-full overflow-auto rounded bg-eliinova-teal"
           >
             <form name="contact" class="px-8" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
@@ -133,7 +133,7 @@
                 <span class="inline-flex rounded-md shadow-sm">
                   <button
                     type="submit"
-                    class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 text-teal-600 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal active:bg-teal-700"
+                    class="inline-flex items-center px-4 py-2 text-base font-medium leading-6 transition duration-150 ease-in-out bg-white border border-transparent rounded-md text-eliinova-teal hover:text-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal active:bg-teal-700"
                   >
                     <svg
                       class="w-5 h-5 mr-3 -ml-1"

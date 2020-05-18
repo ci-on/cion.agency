@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <p
-          class="text-base font-semibold leading-6 tracking-wide text-teal-600 uppercase"
+          class="text-base font-semibold leading-6 tracking-wide text-eliinova-teal uppercase"
         >
           Services
         </p>

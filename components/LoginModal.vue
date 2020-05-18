@@ -41,7 +41,7 @@
           class="flex flex-col justify-center h-full py-12 overflow-auto bg-gray-50 sm:px-6 lg:px-8"
         >
           <div class="sm:mx-auto sm:w-full sm:max-w-md">
-            <cion-logo class="h-10 mx-auto" />
+            <eliinova-logo class="h-10 mx-auto" />
 
             <h2
               class="mt-6 text-3xl font-extrabold leading-9 text-center text-gray-900"
@@ -51,7 +51,7 @@
             <p class="mt-2 text-sm leading-5 text-center text-gray-600 max-w">
               Or
               <a
-                class="font-medium text-teal-600 transition duration-150 ease-in-out focus:outline-none focus:underline"
+                class="font-medium text-eliinova-teal transition duration-150 ease-in-out focus:outline-none focus:underline"
               >
                 contact us with any questions.
               </a>
@@ -100,7 +100,7 @@
                     <input
                       id="remember_me"
                       type="checkbox"
-                      class="w-4 h-4 text-teal-600 transition duration-150 ease-in-out form-checkbox"
+                      class="w-4 h-4 text-eliinova-teal transition duration-150 ease-in-out form-checkbox"
                     />
                     <label
                       for="remember_me"
@@ -113,7 +113,7 @@
                   <div class="text-sm leading-5">
                     <a
                       href="#"
-                      class="font-medium text-teal-600 transition duration-150 ease-in-out hover:text-teal-500 focus:outline-none focus:underline"
+                      class="font-medium text-eliinova-teal transition duration-150 ease-in-out hover:text-teal-500 focus:outline-none focus:underline"
                     >
                       Forgot your password?
                     </a>
@@ -124,7 +124,7 @@
                   <span class="block w-full rounded-md shadow-sm">
                     <button
                       type="submit"
-                      class="flex justify-center w-full px-4 py-2 text-sm font-medium text-white transition duration-150 ease-in-out bg-teal-600 border border-transparent rounded-md hover:bg-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal active:bg-teal-700"
+                      class="flex justify-center w-full px-4 py-2 text-sm font-medium text-white transition duration-150 ease-in-out bg-eliinova-teal border border-transparent rounded-md hover:bg-teal-500 focus:outline-none focus:border-teal-700 focus:shadow-outline-teal active:bg-teal-700"
                     >
                       Sign in
                     </button>
@@ -216,11 +216,11 @@
 </template>
 
 <script>
-import CionLogo from './CionLogo'
+import EliinovaLogo from './EliinovaLogo'
 
 export default {
   components: {
-    CionLogo
+    EliinovaLogo
   },
 
   props: {

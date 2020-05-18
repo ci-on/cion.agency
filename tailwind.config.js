@@ -5,7 +5,13 @@
  * Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'eliinova-teal': '#00ACC1'
+      }
+    }
+  },
   variants: {},
   plugins: [require('@tailwindcss/ui')]
 }

@@ -25,97 +25,81 @@
 
         <div
           class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
-          @mouseover="hovering = 'meema'"
-          @mouseleave="hovering = null"
-        >
-          <img
-            class="max-h-10"
-            :src="
-              hovering === 'meema'
-                ? '/meema-logo-color.svg'
-                : '/meema-logo-gray.svg'
-            "
-            alt="Meema"
-          />
-        </div>
-
-        <div
-          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
-          @mouseover="hovering = 'girlgaze'"
+          @mouseover="hovering = 'aetna1'"
           @mouseleave="hovering = null"
         >
           <img
             class="max-h-12"
             :src="
-              hovering === 'girlgaze'
-                ? '/girlgaze-logo-color.svg'
-                : '/girlgaze-logo-gray.svg'
+              hovering === 'aetna1'
+                ? '/aetna-logo-color.svg'
+                : '/aetna-logo-gray.svg'
             "
-            alt="Girlgaze"
+            alt="Aetna"
           />
         </div>
 
-        <!-- <div
+        <div
           class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
-          @mouseover="hovering = 'greenline'"
+          @mouseover="hovering = 'aetna2'"
           @mouseleave="hovering = null"
         >
           <img
             class="max-h-12"
             :src="
-              hovering === 'greenline'
-                ? '/greenline-logo-color.svg'
-                : '/greenline-logo-gray.svg'
+              hovering === 'aetna2'
+                ? '/aetna-logo-color.svg'
+                : '/aetna-logo-gray.svg'
             "
-            alt="Greenline"
-          />
-        </div> -->
-
-        <div
-          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
-          @mouseover="hovering = 'bixolon'"
-          @mouseleave="hovering = null"
-        >
-          <img
-            class="max-h-6"
-            :src="
-              hovering === 'bixolon'
-                ? '/bixolon-logo-color.svg'
-                : '/bixolon-logo-gray.svg'
-            "
-            alt="Bixolon"
+            alt="Aetna"
           />
         </div>
 
         <div
           class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
-          @mouseover="hovering = 'carefree'"
+          @mouseover="hovering = 'aetna3'"
           @mouseleave="hovering = null"
         >
           <img
             class="max-h-12"
             :src="
-              hovering === 'carefree'
-                ? '/carefree-logo-color.svg'
-                : '/carefree-logo-gray.svg'
+              hovering === 'aetna3'
+                ? '/aetna-logo-color.svg'
+                : '/aetna-logo-gray.svg'
             "
-            alt="CareFree"
+            alt="Aetna"
           />
         </div>
 
         <div
           class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
-          @mouseover="hovering = 'mutesix'"
+          @mouseover="hovering = 'aetna4'"
           @mouseleave="hovering = null"
         >
           <img
-            class="max-h-6"
+            class="max-h-12"
             :src="
-              hovering === 'mutesix'
-                ? '/mutesix-logo-color.svg'
-                : '/mutesix-logo-gray.svg'
+              hovering === 'aetna4'
+                ? '/aetna-logo-color.svg'
+                : '/aetna-logo-gray.svg'
             "
-            alt="Mutesix"
+            alt="Aetna"
+          />
+        </div>
+
+        <div
+          class="flex items-center justify-center col-span-1 px-8 py-8 bg-gray-50"
+          @mouseover="hovering = 'aetna5'"
+          @mouseleave="hovering = null"
+        >
+          <img
+            class="max-h-12"
+            :src="
+              hovering === 'aetna5'
+                ? '/aetna-logo-color.svg'
+                : '/aetna-logo-gray.svg'
+            "
+            alt="Aetna"
           />
         </div>
       </div>
