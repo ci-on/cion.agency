@@ -61,9 +61,9 @@
               >
                 <GMapInfoWindow>
                   <h3 class="mb-1 font-bold">CION Agency</h3>
-                  <span>770 S Grand Ave</span>
+                  <span>12665 Village Ln</span>
                   <br />
-                  <span>Los Angeles, CA 90017</span>
+                  <span>Playa Vista, CA 90094</span>
                   <br />
                   <p class="mt-1 italic">Mo - Fr from 8:00am - 6:00pm PST</p>
                 </GMapInfoWindow>
@@ -173,9 +173,9 @@ export default {
       locationsVisibleOnMap: '',
       locations: [
         {
-          lat: 34.04625,
-          lng: -118.25637,
-          name: 'Los Angeles'
+          lat: 33.97741,
+          lng: -118.41548,
+          name: 'Silicon Beach'
         }
       ]
     }
