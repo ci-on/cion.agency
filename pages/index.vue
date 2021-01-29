@@ -1,13 +1,19 @@
 <template>
-  <div id="app">
-    <the-hero @show:login="openLogin" @show:contact="showContact = true" />
+  <div>
+    <the-hero
+      @show:login="showLogin = true"
+      @show:contact="showContact = true"
+    />
     <strategy-section />
     <services-section />
     <greenline-section />
     <newsletter-section />
     <logo-cloud />
     <testimonial-section />
-    <the-footer @show:contact="showContact = true" @show:login="openLogin" />
+    <the-footer
+      @show:contact="showContact = true"
+      @show:login="showLogin = true"
+    />
 
     <login-modal :open="showLogin" @closed="showLogin = false" />
     <contact-modal :open="showContact" @closed="showContact = false" />
@@ -45,13 +51,6 @@ export default {
       showLogin: false,
       showContact: false
     }
-  },
-
-  computed: {
-    buttonValue() {
-      if (this.forgotPassword) {
-        return 'Reset';
-      }
   }
 }
 </script>
